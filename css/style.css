@@ -5,6 +5,12 @@ Author: Danica Yap
 Email: danica.yap@student.curtin.edu.au
 Tags: Website, Branding, Colour Palette */
 
+
+main{
+    margin: 0 auto;
+    max-width: 50em;
+}
+
 /*body styling*/
 body {   
   margin: 0;  /* centers the <body> within the page */
