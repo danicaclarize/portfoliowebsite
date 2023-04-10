@@ -1,6 +1,6 @@
 /* 
 Description: Contains the styling for the Site Branding
-Title: Portfolio Website for Web Technologhies Projects
+Title: Portfolio Website for Web Technologies Projects
 Author: Danica Yap 
 Email: danica.yap@student.curtin.edu.au
 Tags: Website, Branding, Colour Palette */
@@ -11,19 +11,17 @@ Tags: Website, Branding, Colour Palette */
     box-sizing: border-box;
 }
 
-
 /*body styling*/
 body {   
-  margin: 0 ;  /* centers the <body> within the page */
+  margin: 0;  /* centers the <body> within the page */
   padding: 0;
   font-family: Helvetica, sans-serif;
-  background-color:blanchedalmond
+  background-color: blanchedalmond;
 }
 
 /*header styling*/
 header {
   background-color: rgb(17, 73, 5);
-  color:rgba(145, 119, 15, 0.969);
+  color: rgba(145, 119, 15, 0.969);
   padding: 20px;
 }
-
