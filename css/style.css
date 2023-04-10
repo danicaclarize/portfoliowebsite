@@ -5,27 +5,25 @@ Author: Danica Yap
 Email: danica.yap@student.curtin.edu.au
 Tags: Website, Branding, Colour Palette */
 
-
-
-body {   
-  margin: 0 auto;  /* centers the <body> within the page */
-  padding: 0;
-  font-family: Helvetica, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+
+/*body styling*/
+body {   
+  margin: 0 ;  /* centers the <body> within the page */
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  background-color:blanchedalmond
+}
+
+/*header styling*/
 header {
   background-color: rgb(17, 73, 5);
-  color:rgb(1, 1, 87);
+  color:rgba(145, 119, 15, 0.969);
   padding: 20px;
 }
 
-nav ul {
-  margin:0;
-  padding: 0px;
-  list-style: none;
-}
-
-nav ul li {
-	display: inline-block;
-	margin-right: 20px;
-}
