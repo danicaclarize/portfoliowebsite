@@ -6,68 +6,18 @@
   <title>Portfolio website for Web Technologies Projects</title>
   <meta name="author" content="Danica Yap">
   <meta name="description" content="Demonstrate the fundamental web technologies used in the development of a portfolio website">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <style>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+ 
 
 
 /* CSS for some reason the CSS wont work in separate 
 folder/notebook after trying to place it back in HTML it worked*/
-main{
-    margin: 0 auto;
-    max-width: 50em;
-}
 
-/*body styling*/
-body {   
-  margin: 0;  /* centers the <body> within the page */
-  padding: 0;
-  font-family: Helvetica, sans-serif;
-  background-color: blanchedalmond;
-}
-
-/*header styling*/
-header {
-  background-color:rgb(4, 54, 36);
-  background-size: cover;
-  color:blanchedalmond;
-  padding: 20px;
-  text-align: center;
-  gap: 1em;
-}
-
-.heading1{
-    color:rgba(5, 74, 19, 0.969)
-    font-size: 3em;
-    font-weight: 300;
-    margin-bottom: 20px;
-    text-shadow: #FC0 1px 0 10px; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow*/
-}
-.heading2 {
-    color:rgba(5, 74, 19, 0.969)
-    font-size: smaller;
-    font-weight: 150;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-header a {
-    border: 2px solid blanchedalmond;
-    border-radius: 10px 100px / 120px; /* https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius*/
-    background-color: blanchedalmond; 
-    padding: 1em 2em;
-    color: black;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-  
-  header a:hover {
-    background: grey;
-    color: white;
-  }
-  </style>
+ 
 </head>
 
-<body>
+<body class="main-content">
+  <!-- header design -->
     <header id="header">
       <h1 class="heading1"> Portfolio Website for Web Technologies</h1>
       <h2 class="heading2">ISYS3004 Business Web and Mobile Technologies </h2> 
@@ -85,5 +35,8 @@ header a {
 
     </section>
   
+
+
+    <script src="js/script.js"></script>
 </body>
 </html>
