@@ -16,7 +16,7 @@ Tags: Website, Branding, Colour Palette */
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: 'Helvetica', sans-serif;
+  font-family: Arial, Helvetica, sans-serif sans-serif;
 }
 
 :root {
@@ -64,7 +64,7 @@ gap: 1em;*/
 }
 
 .logo {
-  font-size: 2.5rem;
+  font-size: 2.5em;
   color: var(main-color)
   font-weight: 600;
   cursor: default;
