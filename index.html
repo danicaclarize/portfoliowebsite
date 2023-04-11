@@ -7,25 +7,26 @@
   <meta name="author" content="Danica Yap">
   <meta name="description" content="Demonstrate the fundamental web technologies used in the development of a portfolio website">
   <link rel="stylesheet" type="text/css" href="css/style.css">
- 
 
-
-/* CSS for some reason the CSS wont work in separate 
-folder/notebook after trying to place it back in HTML it worked*/
-
- 
+  <!--===BOX ICONS===-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body class="main-content">
-  <!-- header design -->
-    <header id="header">
+  <!-- HEADER DESIGN -->
+    <header class="header">
       <h1 class="heading1"> Portfolio Website for Web Technologies</h1>
-      <h2 class="heading2">ISYS3004 Business Web and Mobile Technologies </h2> 
-        <a href="#home">Home</a> 
+      <h2 class="heading2">ISYS3004 Business Web and Mobile Technologies</h2> 
+      <!-- logo -->
+      <a href class="#" class="logo">Portfolio</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a> 
         <a href="#about">About</a> 
-        <a href="#project">Projects</a> 
+        <a href="#portfolio">Projects</a> 
         <a href="#contact">Contact</a> 
-         <a href="#reflection">Reflection</a>
+        <a href="#reflection">Reflection</a>
+      </nav>
      
     </header>
 
@@ -34,9 +35,12 @@ folder/notebook after trying to place it back in HTML it worked*/
       <img src="https://scontent.fper8-1.fna.fbcdn.net/v/t39.30808-6/325140122_1267538107454682_7102911983977193219_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=EK_Ae29wtrMAX-6kA4z&_nc_ht=scontent.fper8-1.fna&oh=00_AfBUS85-Nz7MnUrvC0HjL2pwNEIrZN6c3J4YxMOH0JRXAQ&oe=6438FDDE">
 
     </section>
-  
+
+    <!--===SCROLL REVEAL===-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 
+    <!--===MAIN JS===-->
     <script src="js/script.js"></script>
 </body>
 </html>

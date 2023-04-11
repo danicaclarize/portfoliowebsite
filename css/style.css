@@ -5,38 +5,97 @@ Author: Danica Yap
 Email: danica.yap@student.curtin.edu.au
 Tags: Website, Branding, Colour Palette */
 
+/* === CSS VARIABLES===*/
 
-main{
-  margin: 0 auto;
-  max-width: 50em;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Helvetica', sans-serif;
 }
 
+:root {
+  background-color: #fdfdfd;
+  text-color: #333;
+  main-color: #104708;
+  white-color: #fefefe;
+  shadow-color: rgba(0, 0, 0, .2);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+}
+
+
 /*body styling*/
-body {   
-margin: 0;  /* centers the <body> within the page */
+body { 
+  background: var(background-color);  
+  color: var(text-color);
+/*margin: 0;  
 padding: 0;
 font-family: Helvetica, sans-serif;
-background-color: blanchedalmond;
+background-color: blanchedalmond;*/
 }
 
 /*header styling*/
-header {
-background-color:rgb(4, 54, 36);
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 7%;
+  background: yellowgreen;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+/*background-color:rgb(4, 54, 36);
 background-size: cover;
 color:blanchedalmond;
 padding: 20px;
 text-align: center;
-gap: 1em;
+gap: 1em;*/
 }
 
-.heading1{
+.logo {
+  font-size 2.5rem;
+  color: var(main-color)
+  font-weight: 600;
+  cursor: default;
+  margin-right: auto;
+}
+
+.navbar a {
+  font-size: 1.7rem;
+  color: var(white-color);
+  font-weight: 500;
+  margin-right: 3.5rem;
+}
+
+.navbar a.active: :before {
+  content: '';
+  position: absolute;
+  left:0;
+  width: 100%;
+  height: 2px;
+  background: var(white-color);
+
+}
+
+/*.heading1
   color:rgba(5, 74, 19, 0.969)
   font-size: 3em;
   font-weight: 300;
   margin-bottom: 20px;
-  text-shadow: #FC0 1px 0 10px; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow*/
-}
-.heading2 {
+  text-shadow: #FC0 1px 0 10px; /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+  
+  .heading2 {
   color:rgba(5, 74, 19, 0.969)
   font-size: smaller;
   font-weight: 150;
@@ -46,7 +105,7 @@ gap: 1em;
 
 header a {
   border: 2px solid blanchedalmond;
-  border-radius: 10px 100px / 120px; /* https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius*/
+  border-radius: 10px 100px / 120px; https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
   background-color: blanchedalmond; 
   padding: 1em 2em;
   color: black;
