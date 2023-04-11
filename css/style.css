@@ -64,7 +64,7 @@ gap: 1em;*/
 }
 
 .logo {
-  font-size: 3em;
+  font-size: 1rem;
   color: var(main-color)
   font-weight: 600;
   cursor: default;
