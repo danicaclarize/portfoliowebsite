@@ -50,34 +50,45 @@ background-color: blanchedalmond;*/
   top: 0;
   left: 0;
   width: 100%;
-  padding: 2rem 7%;
-  background: rgb(155, 119, 0);
+  padding: 2rem 9%;
+  background: var(--bg-color);
   display: flex;
+  justify-content: space-between;
   align-items: center;
   z-index: 100;
-/*background-color:rgb(4, 54, 36);
+}
+
+
+/* This was the first design I did and I have to change it to a different one.
+background-color:rgb(4, 54, 36);
 background-size: cover;
 color:blanchedalmond;
 padding: 20px;
 text-align: center;
 gap: 1em;*/
-}
+
 
 .logo {
   font-size: 2.5rem;
   color: white;
   font-weight: 600;
   cursor: default;
-  margin-right: auto;
+  
 }
 
 .navbar a {
   font-size: 1.7em;
-  color: white;
-  font-weight: 500;
-  margin-right: auto;
+  color: var(--text-color);
+  margin-left: 4rem;
+  transition:.3s; /* Property that define the duration effect when a CSS property is changed. - ChatGPT*/
 }
 
+.navbar a:hover {
+  color: var(--main-color)
+
+}
+
+}
 .navbar a.active: :before {
   content: '';
   position: absolute;
