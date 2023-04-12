@@ -18,12 +18,13 @@ Tags: Website, Branding, Colour Palette */
   font-family: Arial, Helvetica, sans-serif sans-serif;
 }
 
+/* Setting global CSS variables for the entire page*/
 :root {
-  background-color: #fdfdfd;
-  text-color: #333;
-  main-color: #104708;
-  white-color: #fefefe;
-  shadow-color: rgba(0, 0, 0, .2);
+  --bg-color: #fdfdfd;
+  --text-color: #333;
+  --main-color: #104708;
+  --white-color: #fefefe;
+  --shadow-color: rgba(0, 0, 0, .2);
 }
 
 html {
@@ -35,7 +36,7 @@ html {
 
 /*body styling*/
 body { 
-  background: var(background-color);  
+  background: var(--bg-color);  
   color: var(text-color);
 /*margin: 0;  
 padding: 0;
@@ -63,7 +64,7 @@ gap: 1em;*/
 }
 
 .logo {
-  font-size: 1rem;
+  font-size: 2.5rem;
   color: white;
   font-weight: 600;
   cursor: default;
@@ -87,6 +88,8 @@ gap: 1em;*/
   background-colour: white;
 
 }
+
+/* 11/04/23 trying to edit navigation bar*/
 
 /*.heading1
   color:rgba(5, 74, 19, 0.969)
