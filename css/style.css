@@ -7,7 +7,7 @@ Tags: Website, Branding, Colour Palette */
 
 /* === CSS VARIABLES===*/
 
-*{
+*{ /*the universal selector that targets every elements on the web page*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -28,9 +28,10 @@ Tags: Website, Branding, Colour Palette */
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; 
   overflow-x: hidden;
-
+/* sets the default size for the HTML document 
+  and also hides the document that would overflow the horizontal axist of the viewport*/
 }
 
 
@@ -58,18 +59,15 @@ background-color: blanchedalmond;*/
   z-index: 100;
 }
 
-
-
-
-
+/* style for the element with the class "logo" */
 .logo {
   font-size: 2.5rem;
   color: ver(--text-color);
   font-weight: 600;
   cursor: default;
-  
 }
 
+/* style for the element with the class navbar link */
 .navbar a {
   font-size: 1.7em;
   color: var(--text-color);
@@ -83,6 +81,14 @@ background-color: blanchedalmond;*/
   color: var(--main-color);
 
 }
+
+/* style for the element with the ID "menu-icon" */
+#menu-icon {
+  font-size: 3.6rem;
+  color: var(--text-color);
+  display: none;
+}
+
 
 /* This was the first design I did and I have to change it to a different one.
 background-color:rgb(4, 54, 36);
