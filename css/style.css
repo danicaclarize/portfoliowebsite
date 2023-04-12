@@ -45,6 +45,11 @@ font-family: Helvetica, sans-serif;
 background-color: blanchedalmond;*/
 }
 
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2 rem;
+}
+
 /*header styling*/
 .header {
   position: fixed;
