@@ -180,6 +180,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   border-radius: 4rem;
   box-shadow: 0 0 1rem --main-color;
   font-weight: 500;
+  margin-top: auto;
 
 }
 
