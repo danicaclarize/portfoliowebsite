@@ -5,6 +5,7 @@ Author: Danica Yap
 Email: danica.yap@student.curtin.edu.au
 Tags: Website, Branding, Colour Palette */
 
+
 /* === CSS variables ===*/
 
 /*import sans Pro with multiple font weights and styles*/
@@ -94,7 +95,7 @@ section {
 }
 
 /* style for the element with the class navbar link */
-.navbar a {
+.navigationbar a {
   font-size: 1.7em;
   color: var(--white-color);
   margin-left: 4rem;
@@ -102,9 +103,9 @@ section {
 }
 
 /* sets the color anchor links when hover over */
-.navbar a:hover,
-.navbar a.active { /*targets anchor links*/
-  color: var(--main-color);
+.navigationbar a:hover,
+.navigationbar a.active { /*targets anchor links*/
+  color: var(--main-color); 
 
 }
 /* style for the element with the ID "menu-icon" */
@@ -186,7 +187,8 @@ section {
 
 .slow-motion {
   animation: slowmotion 2s ease-in-out;
-}
+}/* (ChatGPT, generative AI output, April 13, 2023).*/
+
 
 @keyframes slowmotion {
   0%{
@@ -195,7 +197,7 @@ section {
   100%{
     transform: scale(1.5);
   }
-}
+} /* (ChatGPT, generative AI output, April 13, 2023).*/
 
 
 /*applies different color to the block*/
@@ -240,7 +242,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 
 
-/*added hover effects to social media links*/
+/*added hover effects to social media links (Halid 2023)*/
 .social-media a:hover {
   background: var(--main-color);
   color: var(--second-bg-color);
@@ -249,7 +251,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 }
 
 
-/*style the button*/
+/*style the button (Halid 2023)*/
 .btn {
   display: inline-block;
   padding: 1rem 2.5rem;
@@ -317,3 +319,8 @@ header a:hover {
   background: grey;
   color: white;
 }
+
+
+
+/* Reference 
+Halid. 2023. "Build a Complete Responsive Personal Portfolio Website using HTML CSS Javascript"
