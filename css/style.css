@@ -42,7 +42,8 @@ html {
 
 /*body styling*/
 body { 
-  background: var(--bg-color);  
+  background-image: url("images/home.section2.jpg");
+  /*background: var(--bg-color);  */
   color: var(--text-color);
 /*margin: 0;  
 padding: 0;
