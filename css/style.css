@@ -235,7 +235,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   font-size: 2rem; /*sets font size of social media links to 2 rem.*/
   color: var(--main-color); /*sets text colour within the links*/
   margin: 3rem 1.5rem 3rem 0;
-  transition: .5s ease;
+  transition: .3s ease;
 }
 
 
@@ -259,7 +259,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   font-weight: 700;
   margin-top: auto;
   transition: .5s ease;
-  color: var(--white-color)
+  color: var(--main-color)
 }
 
 .btn hover {
