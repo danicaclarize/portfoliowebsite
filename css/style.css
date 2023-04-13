@@ -152,7 +152,7 @@ section {
 }
 
 .overlay {
-  positionL absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -201,7 +201,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   color: var(--main-color); /*sets text colour within the links*/
   margin: 3rem 1.5rem 3rem 0;
   transition: .5s ease;
-  z-index: 10;
+  
 
 }
 
