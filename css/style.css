@@ -24,7 +24,7 @@ Tags: Website, Branding, Colour Palette */
 /* Setting global CSS variables for the entire page*/
 :root {
   --bg-color: rgba(4, 66, 82, 0.961);
-  --text-color: #333333;
+  --text-color: #f8f8f8;
   --main-color: #beecf0;
   --white-color: #fefefe;
   --shadow-color: rgba(0, 0, 0, .2);
