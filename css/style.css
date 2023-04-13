@@ -134,12 +134,14 @@ span {
   font-weight: 600;
   font-size: 4rem;
   line-weight: 1.3;
+  margin-bottom: 2rem;
 }
 
 /*Sets the paragraph elements that are children of home-content*/
 .home-content p {
   font-style: italic;
   font-size: 1.8rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -167,11 +169,13 @@ the element with a class social-media adn sets the properties for the elemenst*/
   background: var(--main-color);
   color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
+  margin: 20px;
 }
 
+/*style the button*/
 .btn {
   display: inline-block;
-  padding: 1rem 2.8rem;
+  padding: 1rem 2.5rem;
   background: var(--main-color);
   border-radius: 4rem;
   box-shadow: 0 0 1rem --main-color;
