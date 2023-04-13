@@ -146,10 +146,15 @@ the element with a class social-media adn sets the properties for the elemenst*/
   border: .2rem solid var(--main-color); /*sets border around the element with 
   the thickness of.2rem with a solid line using the main color*/
   border-radius : 50%;
-  font-size: 2rem;
-  color: var(--main-color);
+  font-size: 2rem; /*sets font size of social media links to 2 rem.*/
+  color: var(--main-color); /*sets text colour within the links*/
   margin: 3rem 1.5rem 3 rem 0;
 
+}
+
+/*added hover to social media links*/
+.social-media a:hover {
+  background: var(--main-color);
 }
 
 
