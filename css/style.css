@@ -87,6 +87,13 @@ section {
   cursor: default;
 }
 
+
+.toggle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
 /* style for the element with the class navbar link */
 .navbar a {
   font-size: 1.7em;
@@ -110,14 +117,16 @@ section {
 
 /*Create center layout for the home element*/
 .home {
-  position: relative;
+  position: absolute;
   right:0;
   width:100%;
   min-height: 100vh;
+  padding: 100px;
   display: flex; /*sets display property to the element flex*/
-  justify-content: center; /* sets in the flex container*/
+  justify-content: space-between; /* sets in the flex container*/
   align-items: center; /*aligns flex items along the vertical axis by default to the center of the flex container */
   background: #111
+  color: white;
   z-index: 2;
 }
 
@@ -172,7 +181,7 @@ span {
   font-size: 4rem;
   line-weight: 1.3;
   margin-bottom: 2rem;
-  z-index: 10;
+ 
 }
 
 /*Sets the paragraph elements that are children of home-content*/
@@ -180,7 +189,7 @@ span {
   font-style: italic;
   font-size: 1.8rem;
   margin-bottom: 2rem;
-  z-index: 10;
+ 
 }
 
 
@@ -210,7 +219,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
   margin: 20px;
-  z-index: 10;
+
 }
 
 /*style the button*/
@@ -223,7 +232,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   font-weight: 500;
   margin-top: auto;
   transition: .5s ease;
-  z-index: 10;
+
 
 }
 
