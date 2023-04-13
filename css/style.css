@@ -116,6 +116,7 @@ section {
 
 }
 
+/*Selects all 'h1' elements that are children of the class 'home-content'*/
 .home-content h1 {
   font-weight: 600;
   font-size: 5rem;
