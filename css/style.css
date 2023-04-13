@@ -104,7 +104,7 @@ section {
 
 /*Create center layout for the home element*/
 .home {
-  background-image: url("path/to/home.section2.jpg");
+  background-image: url("danicaclarize/portfoliowebsite/images/home.section2.jpg");
   background-size: cover;
   background-position: center;
   display: flex; /*sets display property to the element flex*/
