@@ -155,6 +155,8 @@ the element with a class social-media adn sets the properties for the elemenst*/
 /*added hover to social media links*/
 .social-media a:hover {
   background: var(--main-color);
+  color: var(--second-bg-color);
+  box-shadow: 0 0 1rem var(--main-color);
 }
 
 
