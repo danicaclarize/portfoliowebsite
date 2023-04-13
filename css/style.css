@@ -43,6 +43,10 @@ html {
 /*body styling*/
 body { 
   background-image: url("images/home.section2.jpg");
+  background-image: url("images/home.section2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   /*background: var(--bg-color);  */
   color: var(--text-color);
 /*margin: 0;  
@@ -105,10 +109,7 @@ section {
 
 /*Create center layout for the home element*/
 .home {
-  background-image: url("images/home.section2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+
   display: flex; /*sets display property to the element flex*/
   justify-content: center; /* sets in the flex container*/
   align-items: center; /*aligns flex items along the vertical axis by default to the center of the flex container */
