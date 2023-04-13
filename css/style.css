@@ -117,7 +117,7 @@ section {
 
 /*Create center layout for the home element*/
 .home {
-  position: absolute;
+  position: relative;
   right:0;
   width:100%;
   min-height: 100vh;
@@ -130,26 +130,29 @@ section {
   z-index: 2;
 }
 
+
 .home-content {
   position: relative;
   z-index:10;
 }
+
 
 .home-image {
   position: relative;
   z-index:10;
 }
 
+
 /*sets image vieport width for the element img under home-img class*/
 .home-img img {
   width:35vw;
 }
 
+
 /*Selects all  'h3' elements that are children of the class 'home-content'*/
 .home-content h3 {
   font-weight: 600px;; /* sets the text to bold*/
   font-size: 2.5rem; /* based on the font size of the root element which is the html*/
-  
 }
 
 
@@ -178,6 +181,7 @@ section {
   background: var(--bg-color);
   mix-blend-mode: overlay;
 }
+
 
 /*applies different color to the block*/
 span {
