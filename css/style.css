@@ -145,6 +145,10 @@ the element with a class social-media adn sets the properties for the elemenst*/
   background: transparent;
   border: .2rem solid var(--main-color); /*sets border around the element with 
   the thickness of.2rem with a solid line using the main color*/
+  border-radius : 50%;
+  font-size: 2rem;
+  color: var(--main-color);
+  margin: 3rem 1.5rem 3 rem 0;
 
 }
 
