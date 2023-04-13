@@ -94,9 +94,6 @@ section {
   color: var(--main-color);
 
 }
-
-
-
 /* style for the element with the ID "menu-icon" */
 #menu-icon {
   font-size: 3.6rem;
@@ -104,18 +101,25 @@ section {
   display: none;
 }
 
+/*Create center layout for the home element*/
 .home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex; /*sets display property to the element flex*/
+  justify-content: center; /* sets in the flex container*/
+  align-items: center; /*aligns flex items along the vertical axis by default to the center of the flex container */
 }
 
 
 /*Selects all  'h3' elements that are children of the class 'home-content'*/
 .home-content h3 {
-  font-weight:700; /* sets the text to bold*/
+  font-weight 600px;; /* sets the text to bold*/
   font-size: 3.2rem; /* based on the font size of the root element which is the html*/
 
+}
+
+.home-content h1 {
+  font-weight: 600;
+  font-size: 5rem;
+  line-weight: 1.3;
 }
 
 
