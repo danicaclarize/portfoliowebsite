@@ -159,7 +159,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   border-radius : 50%;
   font-size: 2rem; /*sets font size of social media links to 2 rem.*/
   color: var(--main-color); /*sets text colour within the links*/
-  margin: 3rem 1.5rem 3 rem 0;
+  margin: 3rem 1.5rem 3rem 0;
   transition: .5s ease;
 
 }
