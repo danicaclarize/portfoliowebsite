@@ -108,6 +108,7 @@ section {
   align-items: center; /*aligns flex items along the vertical axis by default to the center of the flex container */
 }
 
+/*sets image vieport width*/
 .home-img img {
   width:35vw;
 }
@@ -126,10 +127,25 @@ section {
   line-weight: 1.3;
 }
 
-
+/*Sets the paragraph elements that are children of home-content*/
 .home-content p {
   font-style: italic;
   font-size: 1.8rem;
+}
+
+
+/* targets the anchor elements witthin  
+the element with a class social-media adn sets the properties for the elemenst*/
+.social-media a {
+  display: inline-flex; /* sets the flex container with a single row*/
+  justify-content: center;
+  align-items: center; /*center the element horizontally*/
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: .2rem solid var(--main-color); /*sets border around the element with 
+  the thickness of.2rem with a solid line using the main color*/
+
 }
 
 
