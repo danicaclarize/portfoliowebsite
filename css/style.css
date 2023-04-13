@@ -41,14 +41,15 @@ html {
 
 /*body styling*/
 body { 
-  background-image: url('danicaclarize/portfoliowebsite/images/Black Minimalist Modern AI Robot Presentation.png') no-repeat center center fixed;
+  /*background-image: url('danicaclarize/portfoliowebsite/images/Black Minimalist Modern AI Robot Presentation.png') no-repeat center center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  /*background: var(--bg-color); 
+  background-repeat: no-repeat;*/
+  background: var(--bg-color); 
   color: var(--text-color);
-
-
-
+  /*margin: 0;  
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: blanchedalmond;*/
 /*margin: 0;  
 padding: 0;
 font-family: Helvetica, sans-serif;
@@ -109,7 +110,7 @@ section {
 
 /*Create center layout for the home element*/
 .home {
-  position: absolute;
+  position: relative;
   right:0;
   width:100%;
   min-height: 100vh;
