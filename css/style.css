@@ -5,7 +5,7 @@ Author: Danica Yap
 Email: danica.yap@student.curtin.edu.au
 Tags: Website, Branding, Colour Palette */
 
-/* === CSS VARIABLES===*/
+/* === CSS variables ===*/
 
 *{ /*the universal selector that targets every elements on the web page*/
   margin: 0;
@@ -27,11 +27,12 @@ Tags: Website, Branding, Colour Palette */
   --shadow-color: rgba(0, 0, 0, .2);
 }
 
+
+/* sets the default size for the HTML document 
+  and also hides the document that would overflow the horizontal axist of the viewport*/
 html {
   font-size: 62.5%; 
   overflow-x: hidden;
-/* sets the default size for the HTML document 
-  and also hides the document that would overflow the horizontal axist of the viewport*/
 }
 
 
@@ -42,13 +43,17 @@ body {
 /*margin: 0;  
 padding: 0;
 font-family: Helvetica, sans-serif;
-background-color: blanchedalmond;*/
+background-color: blanchedalmond;* --- previous body design----*/
 }
 
+
+/* Snippet style for the HTML*/
 section {
-  min-height: 100vh;
-  padding: 10rem 9% 2rem;
+  min-height: 100vh; /* setting the minimum height of the element of the viewport height*/
+  padding: 10rem 9% 2rem; /* padding sets to 10 times the font size of the root element 
+  and the right and left padding to 9% of the width and the bottom padding to 2 times of the root element*/
 }
+
 
 /*header styling*/
 .header {
@@ -87,11 +92,19 @@ section {
 
 }
 
+
+
 /* style for the element with the ID "menu-icon" */
 #menu-icon {
   font-size: 3.6rem;
   color: var(--text-color);
   display: none;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
