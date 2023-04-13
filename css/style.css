@@ -25,7 +25,7 @@ Tags: Website, Branding, Colour Palette */
 :root {
   --bg-color: rgba(4, 66, 82, 0.961);
   --text-color: #333333;
-  --main-color: #0b686e;
+  --main-color: #beecf0;
   --white-color: #fefefe;
   --shadow-color: rgba(0, 0, 0, .2);
   --second-bg-color: #99cabf;
@@ -82,7 +82,7 @@ section {
 /* style for the element with the class "logo" */
 .logo {
   font-size: 2.5rem;
-  color: var(--text-color);
+  color: var(--white-color-color);
   font-weight: 600;
   cursor: default;
 }
@@ -96,7 +96,7 @@ section {
 /* style for the element with the class navbar link */
 .navbar a {
   font-size: 1.7em;
-  color: var(--text-color);
+  color: var(--white-color);
   margin-left: 4rem;
   transition:.3s; /* property duration timing - ChatGPT*/
 }
@@ -110,7 +110,7 @@ section {
 /* style for the element with the ID "menu-icon" */
 #menu-icon {
   font-size: 3.6rem;
-  color: var(--text-color);
+  color: var(--white-color);
   display: none;
 }
 
