@@ -181,9 +181,13 @@ the element with a class social-media adn sets the properties for the elemenst*/
   box-shadow: 0 0 1rem --main-color;
   font-weight: 500;
   margin-top: auto;
+  transition: .5s ease;
 
 }
 
+.btn: hover {
+  box-shadow: none;
+}
 
 /* This was the first design I did and I have to change it to a different one.
 background-color:rgb(4, 54, 36);
