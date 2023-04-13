@@ -41,7 +41,7 @@ html {
 
 /*body styling*/
 body { 
-  background-image: url('images/Black Minimalist Modern AI Robot Presentation.png') no-repeat center center fixed;
+  background-image: url('danicaclarize/portfoliowebsite/images/Black Minimalist Modern AI Robot Presentation.png') no-repeat center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
   /*background: var(--bg-color); 
@@ -109,7 +109,6 @@ section {
 
 /*Create center layout for the home element*/
 .home {
-
   display: flex; /*sets display property to the element flex*/
   justify-content: center; /* sets in the flex container*/
   align-items: center; /*aligns flex items along the vertical axis by default to the center of the flex container */
