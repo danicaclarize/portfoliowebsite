@@ -134,6 +134,10 @@ section {
   position: relative;
   z-index:10;
 }
+.home-image {
+  position: relative;
+  z-index:10;
+}
 
 /*sets image vieport width for the element img under home-img class*/
 .home-img img {
