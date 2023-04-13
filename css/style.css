@@ -109,9 +109,15 @@ section {
 
 /*Create center layout for the home element*/
 .home {
+  position: absolute;
+  right:0;
+  width:100%;
+  min-height: 100vh;
   display: flex; /*sets display property to the element flex*/
   justify-content: center; /* sets in the flex container*/
   align-items: center; /*aligns flex items along the vertical axis by default to the center of the flex container */
+  background: #111
+  z-index: 2;
 }
 
 /*sets image vieport width for the element img under home-img class*/
@@ -129,6 +135,15 @@ section {
 /*target the second h3 element that has the class home-content*/
 .home-content h3:nth-of-type(2) {
   margin-bottom: 2rem;
+
+}
+
+.home video {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
