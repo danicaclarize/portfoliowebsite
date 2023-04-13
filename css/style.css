@@ -111,9 +111,10 @@ section {
 }
 
 
+/*Selects all  'h3' elements that are children of the class 'home-content'*/
 .home-content h3 {
-  font-weight:700;
-  font-size: 3.2rem;
+  font-weight:700; /* sets the text to bold*/
+  font-size: 3.2rem; /* based on the font size of the root element which is the html*/
 
 }
 
