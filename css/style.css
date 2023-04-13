@@ -41,8 +41,9 @@ html {
 
 /*body styling*/
 body { 
-  background: url("images/home.danica.video.mp4") no-repeat center center fixed;
+  background-image: url('images/Black Minimalist Modern AI Robot Presentation.png') no-repeat center center fixed;
   background-size: cover;
+  background-repeat: no-repeat;
   /*background: var(--bg-color); 
   color: var(--text-color);
 
