@@ -23,11 +23,12 @@ Tags: Website, Branding, Colour Palette */
 
 /* Setting global CSS variables for the entire page*/
 :root {
-  --bg-color: #099b7b;
+  --bg-color: #068e70;
   --text-color: #333;
   --main-color: #3de7d3;
   --white-color: #fefefe;
   --shadow-color: rgba(0, 0, 0, .2);
+  --second-bg-color: #99cabf;
 }
 
 
