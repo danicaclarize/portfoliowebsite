@@ -169,6 +169,16 @@ the element with a class social-media adn sets the properties for the elemenst*/
   box-shadow: 0 0 1rem var(--main-color);
 }
 
+.btn {
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem --main-color;
+  font-weight: 500;
+
+}
+
 
 /* This was the first design I did and I have to change it to a different one.
 background-color:rgb(4, 54, 36);
