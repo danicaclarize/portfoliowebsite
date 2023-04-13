@@ -108,6 +108,9 @@ section {
   align-items: center; /*aligns flex items along the vertical axis by default to the center of the flex container */
 }
 
+.home-img img {
+  width:35vw;
+}
 
 /*Selects all  'h3' elements that are children of the class 'home-content'*/
 .home-content h3 {
