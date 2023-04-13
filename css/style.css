@@ -42,11 +42,11 @@ html {
 
 /*body styling*/
 body { 
+  background: var(--bg-color); 
+  color: var(--text-color);
   /*background-image: url('danicaclarize/portfoliowebsite/images/Black Minimalist Modern AI Robot Presentation.png') no-repeat center center fixed;
   background-size: cover;
   background-repeat: no-repeat;*/
-  background: var(--bg-color); 
-  color: var(--text-color);
   /*margin: 0;  
   padding: 0;
   font-family: Helvetica, sans-serif;
@@ -69,15 +69,15 @@ section {
 /*header styling*/
 .header {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0; /* there is 0 distance from the top edge of the screen*/
+  left: 0;/* there is 0 distance from the left edge of the screen*/
   width: 100%;
-  padding: 2rem 9%;
-  background: var(--bg-color);
+  padding: 2rem 9%; 
+  background: var(--bg-color); /
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1000;
+  z-index: 1000; /* positioning the header on top of all the elements*/
 }
 
 /* style for the element with the class "logo" */
@@ -131,16 +131,16 @@ section {
   z-index: 2;
 }
 
-
+/*Position the element over the video background*/
 .home-content {
-  position: relative;
-  z-index:10;
+  position: relative; /* positioning the element in its normal position*/
+  z-index:10; /* sets the stacking over the video*/
 }
 
-
+/*Position the element over the video background*/
 .home-image {
-  position: relative;
-  z-index:10;
+  position: relative; /* positioning the element in its normal position*/
+  z-index:10; /* sets the stacking over the video*/
 }
 
 
@@ -166,17 +166,17 @@ section {
 
 /*design and positioning of the video background*/
 .home video {
-  position: absolute;
+  position: absolute; /* used as a full screen background*/
   top:0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.3;
+  opacity: 0.3; /* sets the desired opacity of the video*/
 }
 
 .overlay {
-  position: absolute;
+  position: absolute; /* used as a full screen background*/
   top: 0;
   left: 0;
   width: 100%;
