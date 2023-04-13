@@ -129,12 +129,14 @@ section {
 .home-content h3 {
   font-weight 600px;; /* sets the text to bold*/
   font-size: 2.5rem; /* based on the font size of the root element which is the html*/
+  z-index: 10;
 }
 
 
 /*target the second h3 element that has the class home-content*/
 .home-content h3:nth-of-type(2) {
   margin-bottom: 2rem;
+  z-index: 10;
 
 }
 
@@ -144,6 +146,8 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
 }
 
 
@@ -159,6 +163,7 @@ span {
   font-size: 4rem;
   line-weight: 1.3;
   margin-bottom: 2rem;
+  z-index: 10;
 }
 
 /*Sets the paragraph elements that are children of home-content*/
@@ -166,6 +171,7 @@ span {
   font-style: italic;
   font-size: 1.8rem;
   margin-bottom: 2rem;
+  z-index: 10;
 }
 
 
@@ -185,6 +191,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   color: var(--main-color); /*sets text colour within the links*/
   margin: 3rem 1.5rem 3rem 0;
   transition: .5s ease;
+  z-index: 10;
 
 }
 
@@ -194,6 +201,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
   margin: 20px;
+  z-index: 10;
 }
 
 /*style the button*/
@@ -206,6 +214,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   font-weight: 500;
   margin-top: auto;
   transition: .5s ease;
+  z-index: 10;
 
 }
 
