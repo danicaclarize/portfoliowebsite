@@ -73,9 +73,9 @@ section {
   left: 0;/* there is 0 distance from the left edge of the screen*/
   width: 100%;
   padding: 2rem 9%; 
-  background: var(--bg-color); /
+  background: var(--bg-color); 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   z-index: 1000; /* positioning the header on top of all the elements*/
 }
@@ -127,8 +127,7 @@ section {
   justify-content: space-between; /* sets in the flex container*/
   align-items: center; /*aligns flex items along the vertical axis by default to the center of the flex container */
   background: #111
-  color white;
-  z-index: 2;
+  /*z-index: 2;*/
 }
 
 /*Position the element over the video background*/
@@ -152,7 +151,7 @@ section {
 
 /*Selects all  'h3' elements that are children of the class 'home-content'*/
 .home-content h3 {
-  font-weight: 600px;; /* sets the text to bold*/
+  font-weight: 600px; /* sets the text to bold*/
   font-size: 2.5rem; /* based on the font size of the root element which is the html*/
 }
 
