@@ -75,9 +75,9 @@ section {
   padding: 2rem 9%; 
   background: var(--bg-color); 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  z-index: 1000; /* positioning the header on top of all the elements*/
+  z-index: 100; /* positioning the header on top of all the elements*/
 }
 
 /* style for the element with the class "logo" */
@@ -86,12 +86,6 @@ section {
   color: var(--white-color-color);
   font-weight: 600;
   cursor: default;
-}
-
-.toggle {
-  position: relative;
-  width: 60px;
-  height: 60px;
 }
 
 /* style for the element with the class navbar link */
