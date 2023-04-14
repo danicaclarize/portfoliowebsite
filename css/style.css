@@ -90,7 +90,7 @@ section {
 
 /* style for the element with the class navbar link */
 .navigationbar a {
-  font-size: 1.7em;
+  font-size: 1.7rem;
   color: var(--white-color);
   margin-left: 4rem;
   transition:.3s; /* property duration timing - ChatGPT*/
