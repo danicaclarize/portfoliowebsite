@@ -262,8 +262,10 @@ the element with a class social-media adn sets the properties for the elemenst*/
 }
 
 .about {
-  
-
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* This was the first design I did and I have to change it to a different one.
