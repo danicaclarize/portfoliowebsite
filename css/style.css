@@ -261,17 +261,17 @@ the element with a class social-media adn sets the properties for the elemenst*/
   box-shadow: none;
 }
 
-.about {
-  min-height: 100vh;
+
+section .about{
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.about-content{
+section .about-content{
+  margin: 100px;
   border-color: var(--main-color);
   border-radius: 5%;
-  
+  background: var(--second-bg-color);
+
 }
 
 
