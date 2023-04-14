@@ -245,7 +245,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 
 /*style the button (Halid 2023)*/
-.btn {
+.button {
   display: inline-block;
   padding: 1rem 2.5rem;
   background: var(--main-color);
@@ -257,7 +257,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   color: var(--bg-color)
 }
 
-.btn hover {
+.button hover {
   box-shadow: none;
 }
 
