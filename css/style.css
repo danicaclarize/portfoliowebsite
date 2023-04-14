@@ -266,8 +266,9 @@ section .about{
   display: flex;
 }
 
-section .about-content{
-  margin: 100px;
+section.about .about-content{
+  margin: 20px;
+  padding:20px;
   border-color: var(--main-color);
   border-radius: 5%;
   background: var(--second-bg-color);
