@@ -265,7 +265,7 @@ section .about{
   display: flex;
 }
 section.aboutme {
-  font-size: 5rem;
+  font-size: 10rem;
   text-decoration: underline; /*(w3schools 2023)*/
 }
 
@@ -275,7 +275,7 @@ section.about h2 {
 }
 
 section.about p {
-  font-size: 1.2rem;
+  font-size: 3rem;
   color:rgba(0, 0, 0, .2);
 }
 
@@ -290,8 +290,6 @@ section.about .about-content{
 
 }
 
-
-}
 
 /* This was the first design I did and I have to change it to a different one.
 background-color:rgb(4, 54, 36);
