@@ -268,9 +268,11 @@ section .about{
 
 section.about h2 {
   font-size: 4rem;
+  color:rgba(0, 0, 0, .2);
 }
 
 section.about .about-content{
+  position: relative;
   margin: 20px;
   padding:20px;
   border-color: var(--main-color);
