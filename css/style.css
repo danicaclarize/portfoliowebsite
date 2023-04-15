@@ -271,7 +271,6 @@ the element with a class social-media adn sets the properties for the elemenst*/
   margin: 5px;
   padding:5px;
   border-color: var(--main-color);
-  border-radius: 10%;
   background: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--white-color);
 
