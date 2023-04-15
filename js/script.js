@@ -1,7 +1,7 @@
 //change color //
 
-const container = document.getElementById("container");
+const about-content = document.getElementById("about-content");
 
-container.addEventListener("click", function() {
-  container.style.backgroundColor = "yellow";
+about-content.addEventListener("click", function() {
+    about-content.style.backgroundColor = "yellow";
 });
