@@ -270,9 +270,12 @@ the element with a class social-media adn sets the properties for the elemenst*/
   position: relative;
   margin: 5px;
   padding:5px;
+  width: 250px;
+  height:250px;
   border-color: var(--main-color);
   background: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--white-color);
+  text-align: center;
 }
 
 .container {
