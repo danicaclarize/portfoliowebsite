@@ -266,24 +266,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   font-size: 5rem;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-direction: column;
-}
-
-section.about h2 {
-  font-size: 4rem;
-  color:rgba(0, 0, 0, .2);
-}
-
-section.about p {
-  font-size: 3rem;
-  color:rgba(0, 0, 0, .2);
-}
-
-section.about .about-content{
+.about-content{
   position: relative;
   margin: 20px;
   padding:20px;
@@ -293,6 +276,25 @@ section.about .about-content{
   box-shadow: 0 0 1rem var(--white-color);
 
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about h2 {
+  font-size: 4rem;
+  color:rgba(0, 0, 0, .2);
+}
+
+.about p {
+  font-size: 3rem;
+  color:rgba(0, 0, 0, .2);
+}
+
+
 
 
 /* This was the first design I did and I have to change it to a different one.
