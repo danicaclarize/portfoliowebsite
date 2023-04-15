@@ -1,3 +1,5 @@
+const myDiv = document.getElementById("myDiv");
 
-
-window.addEventListener('scroll', reveal); //(Coding Snow 2020)//
+myDiv.addEventListener("click", function() {
+  myDiv.style.backgroundColor = "yellow";
+});
