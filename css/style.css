@@ -270,8 +270,9 @@ section.about .about-content{
   margin: 20px;
   padding:20px;
   border-color: var(--main-color);
-  border-radius: 5%;
+  border-radius: 20%;
   background: var(--second-bg-color);
+  box-shadow: 0 0 1rem var(--white-color);
 
 }
 
