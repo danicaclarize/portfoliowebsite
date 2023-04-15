@@ -265,6 +265,10 @@ the element with a class social-media adn sets the properties for the elemenst*/
 section .about{
   display: flex;
 }
+section.aboutme {
+  font-size: 10rem;
+  text-decoration: underline; /*(w3schools 2023)*/
+}
 
 section.about h2 {
   font-size: 4rem;
