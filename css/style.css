@@ -288,7 +288,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .container a {
