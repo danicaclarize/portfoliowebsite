@@ -273,7 +273,6 @@ the element with a class social-media adn sets the properties for the elemenst*/
   border-color: var(--main-color);
   background: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--white-color);
-
 }
 
 .container {
