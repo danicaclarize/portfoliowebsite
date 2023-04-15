@@ -266,7 +266,7 @@ section .about{
   display: flex;
 }
 section.aboutme {
-  font-size: 10rem;
+  font-size: 5rem;
   text-decoration: underline; /*(w3schools 2023)*/
 }
 
