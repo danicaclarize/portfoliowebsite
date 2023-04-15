@@ -288,6 +288,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   box-shadow: 0 0 1rem var(--white-color);
   text-align: center;
   cursor: pointer;
+  text-color: var(--bg-color);
 }
 
 .container {
