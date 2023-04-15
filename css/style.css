@@ -275,6 +275,11 @@ section.about h2 {
   color:rgba(0, 0, 0, .2);
 }
 
+section.about p {
+  font-size: 1.2rem;
+  color:rgba(0, 0, 0, .2);
+}
+
 section.about .about-content{
   position: relative;
   margin: 20px;
