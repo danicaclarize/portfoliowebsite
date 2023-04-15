@@ -266,6 +266,10 @@ section .about{
   display: flex;
 }
 
+section.about h2 {
+  font-size: 4rem;
+}
+
 section.about .about-content{
   margin: 20px;
   padding:20px;
