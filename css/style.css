@@ -271,11 +271,6 @@ section .about{
   align-items: center;
 }
 
-section.aboutme {
-  font-size: 10rem;
-  text-decoration: underline; /*(w3schools 2023)*/
-}
-
 section.about h2 {
   font-size: 4rem;
   color:rgba(0, 0, 0, .2);
