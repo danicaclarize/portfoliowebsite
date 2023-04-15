@@ -263,6 +263,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 section .about{
   display: flex;
+  font-size: 5rem;
 }
 
 .container {
