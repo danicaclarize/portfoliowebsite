@@ -282,15 +282,10 @@ the element with a class social-media adn sets the properties for the elemenst*/
   flex-direction: column;
 }
 
-.about h2 {
-  font-size: 2rem;
-  color:rgba(0, 0, 0, .2);
+.container a {
+  font-weight: 600;
 }
 
-.about p {
-  font-size: 1.2rem;
-  color:rgba(0, 0, 0, .2);
-}
 
 
 
