@@ -1,5 +1,7 @@
-const myDiv = document.getElementById("myDiv");
+//change color //
 
-myDiv.addEventListener("click", function() {
-  myDiv.style.backgroundColor = "yellow";
+const container = document.getElementById("container");
+
+container.addEventListener("click", function() {
+  container.style.backgroundColor = "yellow";
 });
