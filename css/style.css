@@ -261,12 +261,17 @@ the element with a class social-media adn sets the properties for the elemenst*/
   box-shadow: none;
 }
 
-.aboutme{
+.aboutme {
   display: flex;
   font-size: 5rem;
 }
 
-.about-content{
+.about-content h3 {
+  font-size: 30px;
+  padding: top 30px;
+}
+
+.about-content {
   position: relative;
   margin: 5px;
   padding:5px;
@@ -276,6 +281,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   background: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--white-color);
   text-align: center;
+  cursor: pointer;
 }
 
 .container {
