@@ -89,7 +89,7 @@ section {
 }
 
 /* style for the element with the class navbar link */
-.navigationbar a {
+.nav-menu a {
   font-size: 1.7rem;
   color: var(--white-color);
   margin-left: 4rem;
@@ -97,8 +97,8 @@ section {
 }
 
 /* sets the color anchor links when hover over */
-.navigationbar a:hover,
-.navigationbar a.active { /*targets anchor links*/
+.nav-menu a:hover,
+.nav-menu a.active { /*targets anchor links*/
   color: var(--main-color); 
 
 }
