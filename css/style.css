@@ -292,6 +292,10 @@ the element with a class social-media adn sets the properties for the elemenst*/
   float: center;
 }
 
+#work-experience {
+  float:center;
+}
+
 .container {
   position: relative;
   display: flex;
