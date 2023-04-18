@@ -1,21 +1,37 @@
-var changeCursor = document.createElement('div'); //creating a new div element to be used as custom curson
-cursor.className = 'cursor';
-document.body.appendChild(cursor); // appends the element to CSS cursor element to the DOM tree
+const textDisplay = document.getElementById('text')
+const phrases = ['Danica Carlos',   
+I'm a final year student pursuing, 
+'Bachelor of Commerce degree', 'with double major in IT and IS']
+let i = 0
+let j = 0
+let currentPhrase =[]
+let usEnd = false
 
-const typewriter = document.getElementById('typewriter');
-const text = "Danica Carlos";
-var index = 0;
+//Write the behaviour
+//nested loop
+function loop () {
+    textDisplay.innerHTML = currentPhrase.join('')
 
+    if (i < phrases.length) {
+    }
+        if (!isDeleting && j <= phrases[i].lenght)
+        currentPhrase.push(phrases [i][j])
+         {
+        
+        }
+        if (isDeleting && j <= phrases[i].lenght)
+        currentPhrase.pop(phrases [i][j])
+        {
 
-// Write the function
-function typeWriter() {
-  if (index < text.length) {
-    typewriter.textContent += text.charAt(index);
-    index++;
-    setTimeout(typeWriter, 150);
-  }
+        }
+        if (j == phrases [i].length) {
+            isDeleting = true
+        }
+        //move on to the next letter
+        if (j===0) {
+            currentPhrase = []
+            isDeleting = false // no longer deleting
+            i++ 
+        }
 }
-//  Link to Event handler
-typeWriter();
-
-cursor.style.backgroundImage = 'url("https://custom-cursor.com/thumbnail/cursor/thumbnail20333.png")';
+setTimeout(loop, 500)
