@@ -35,3 +35,5 @@ function loop () {
         }
 }
 setTimeout(loop, 500)
+
+loop()
