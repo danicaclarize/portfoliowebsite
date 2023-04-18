@@ -3,10 +3,11 @@ cursor.className = 'cursor';
 document.body.appendChild(cursor); // appends the element to CSS cursor element to the DOM tree
 
 const typewriter = document.getElementById('typewriter');
+const text = "Danica Carlos";
 var index = 0;
 
 
-// Write the behaviou
+// Write the function
 function typeWriter() {
   if (index < text.length) {
     typewriter.textContent += text.charAt(index);
@@ -14,7 +15,7 @@ function typeWriter() {
     setTimeout(typeWriter, 150);
   }
 }
-
-// Link the handler
+//  Link to Event handler
 typeWriter();
+
 cursor.style.backgroundImage = 'url("https://custom-cursor.com/thumbnail/cursor/thumbnail20333.png")';
