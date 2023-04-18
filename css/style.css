@@ -260,6 +260,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .button hover {
   box-shadow: none;
 }
+/* This is the about me section*/
 
 .aboutme {
   display: flex;
