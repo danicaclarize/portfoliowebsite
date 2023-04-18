@@ -1,7 +1,5 @@
 const textDisplay = document.getElementById('text')
-const phrases = ['Danica Carlos',   
-I'm a final year student pursuing, 
-'Bachelor of Commerce degree', 'with double major in IT and IS']
+const phrases = ['Danica Carlos']
 let i = 0
 let j = 0
 let currentPhrase =[]
