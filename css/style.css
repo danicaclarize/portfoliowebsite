@@ -142,6 +142,11 @@ section {
     display: block;
     right: 0;
   }
+  @media (min-width: 769px) {
+    #menu-icon {
+      display: none;
+    }
+  }  
   .nav-menu {
     position: relative;
     top: 100%;
