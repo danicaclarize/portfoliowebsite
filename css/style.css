@@ -373,7 +373,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   
 }
 
-.about_contents.aboutmeImage :: after {
+.about_contents.aboutmeImage ::after {
   position: absolute;
   content:'';
   width: 50%;
@@ -387,6 +387,8 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .aboutInfo h1 {
   color: #dedce1;
   font-size: 30px
+  margin-bottom:5px;
+  position:relative;
   
 }
 /*.about-content h3 {
