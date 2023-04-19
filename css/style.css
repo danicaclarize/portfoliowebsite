@@ -44,7 +44,7 @@ html {
 body { 
   background: var(--bg-color); 
   color: var(--text-color);
-  background-image: url('danicaclarize/portfoliowebsite/images/Black Minimalist Modern AI Robot Presentation.png') no-repeat center center fixed;
+  background-image: url('images/aboutme.jpg') no-repeat center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
   /*background-image: url('danicaclarize/portfoliowebsite/images/Black Minimalist Modern AI Robot Presentation.png') no-repeat center center fixed;
