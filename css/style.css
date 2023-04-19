@@ -340,7 +340,12 @@ the element with a class social-media adn sets the properties for the elemenst*/
   background-size: cover;
   background-position: center;
   height: 100vh;
-  position: relative; /* Add this line to enable stacking of child elements */
+  position: absolute; /* used as a full screen background*/
+  top:0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.3; 
 }
 
 
