@@ -66,7 +66,7 @@ section {
 }
 
 
-/*header styling*/
+/*--------------header styling-----------------*/
 .header {
   position: fixed;
   top: 0; /* there is 0 distance from the top edge of the screen*/
@@ -104,14 +104,24 @@ section {
 }
 /* style for the element with the ID "menu-icon" */
 #menu-icon {
-  font-size: 3.6rem;
   color: var(--white-color);
   display: none;
+  position: fixed;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--main-color);
+  text-align: center;
+  line-height: 42px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+  z-index: 999;
 }
+/*--------------Header End--------------------*/
 
 
 
-/*Create center layout for the home element*/
+/*----Create center layout for the home element----*/
 .home {
   position: relative;
   right:0;
