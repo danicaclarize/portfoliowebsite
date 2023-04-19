@@ -142,7 +142,7 @@ section {
     display: block;
   }
   .nav-menu {
-    position: absolute;
+    position: relative;
     top: 100%;
     left: 0;
     width:100%;
@@ -153,7 +153,7 @@ section {
     display: none;
   }
 
-  .nav.active {
+  .nav-menu.active {
     display: block;
   }
 
