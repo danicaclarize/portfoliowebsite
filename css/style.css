@@ -266,12 +266,9 @@ the element with a class social-media adn sets the properties for the elemenst*/
 /* This is the about me section*/
 
 .about {
-  position: absolute; /* used as a full screen background*/
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  background-image: url('images/aboutme.jpg'); /
+  background-size:cover;
+  height: 100vh;
   opacity: 0.3; /* sets the desired opacity of the image*/
 }
 
