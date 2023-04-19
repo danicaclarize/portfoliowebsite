@@ -182,7 +182,7 @@ section {
 }
 
 .slow-motion {
-  animation: slowmotion 2s ease-in-out;
+  animation: slowmotion 1s ease-in-out;
 }/* (ChatGPT, generative AI output, April 13, 2023).*/
 
 
@@ -302,7 +302,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   box-shadow: 0 0 1rem var(--white-color);
   text-align: center;
   cursor: pointer;
-  float: center;
+  z-index:10;
 }
 
 #work-experience {
