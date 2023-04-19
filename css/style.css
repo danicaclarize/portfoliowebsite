@@ -116,6 +116,17 @@ section {
   box-shadow: 0 0 20px rgba(0, 0, 0, .2);
   z-index: 999;
 }
+
+/* Mobile view */
+@media only screen and (max-width: 1050px){
+  header {
+    left: -300px;
+  }
+  #menu-icon {
+    display: block;
+  }
+}
+
 /*--------------Header End--------------------*/
 
 
