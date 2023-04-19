@@ -265,10 +265,11 @@ the element with a class social-media adn sets the properties for the elemenst*/
 }
 /* This is the about me section*/
 
-.aboutme {
+#aboutme {
   display: flex;
   font-size: 5rem;
   margin-bottom: 20px;
+  position: center;
 }
 
 .about-content h3 {
