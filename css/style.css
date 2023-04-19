@@ -269,7 +269,11 @@ the element with a class social-media adn sets the properties for the elemenst*/
   display: flex;
   font-size: 5rem;
   margin-bottom: 20px;
-  position: center;
+  
+}
+
+#image {
+  width:35vw
 }
 
 .about-content h3 {
