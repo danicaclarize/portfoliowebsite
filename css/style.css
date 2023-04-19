@@ -327,6 +327,8 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .button hover {
   box-shadow: none;
 }
+
+
 /*========= This is the about me section =========*/
 
 .aboutmeImage {
@@ -337,12 +339,9 @@ the element with a class social-media adn sets the properties for the elemenst*/
   position: relative; /* Add this line to enable stacking of child elements */
 }
 
-.aboutmeImage img {
-  display: none; /* Add this line to hide the img element */
-}
 
 #aboutme {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
