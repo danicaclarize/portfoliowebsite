@@ -384,6 +384,12 @@ Section.about_containers{
   z-index: 1;
   
 }
+
+.aboutInfo h1 {
+  color: #dedce1;
+  font-size: 30px
+  
+}
 /*.about-content h3 {
   font-size: 3.5rem;
   padding-top: 30px;
