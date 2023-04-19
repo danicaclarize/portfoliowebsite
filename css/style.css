@@ -335,7 +335,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 /*========= This is the about me section =========*/
 
-.about{
+Section.about_containers{
   background-image: url('images/aboutme.jpg');
   background-size: cover;
   background-position: center;
@@ -366,13 +366,13 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 }
 
-.imageSection img {
+.aboutmeImage img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.about_contents.imageSection :: after {
+.about_contents.aboutmeImage :: after {
   position: absolute;
   content:'';
   width: 100%;
