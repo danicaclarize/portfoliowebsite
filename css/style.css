@@ -372,13 +372,15 @@ the element with a class social-media adn sets the properties for the elemenst*/
   object-fit: cover;
 }
 
-
-#aboutme {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* Add any additional styles for the about me section text */
+.about_contents.imageSection :: after {
+  position: absolute;
+  content:'';
+  width: 100%;
+  height: 100%;
+  outline: 3px solid #99cabf;
+  top: 15px;
+  left: 15px;
+  
 }
 /*.about-content h3 {
   font-size: 3.5rem;
