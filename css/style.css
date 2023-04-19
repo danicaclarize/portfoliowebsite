@@ -135,6 +135,7 @@ section {
 .home-image {
   position: relative; /* positioning the element in its normal position*/
   z-index:10; /* sets the stacking over the video*/
+  
  
 }
 
