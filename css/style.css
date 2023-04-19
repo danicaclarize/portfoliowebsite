@@ -347,6 +347,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   width: 100%;
   object-fit: cover;
   opacity: 0.3; 
+  z-index: 10;
 }
 
 .about_containers.about_contents{
