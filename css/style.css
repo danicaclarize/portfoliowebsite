@@ -335,19 +335,22 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 /*========= This is the about me section =========*/
 
-.aboutmeInfo {
+.about{
   background-image: url('images/aboutme.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
-  padding:50px 8%;
   position: absolute; /* used as a full screen background*/
   top:0;
   left: 0;
-  width: 100%;
   object-fit: cover;
   opacity: 0.3; 
   z-index: 10;
+}
+
+.about_container{
+  width:100%;
+  padding:50px 8%;
 }
 
 .about_containers.about_contents{
