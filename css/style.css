@@ -140,11 +140,12 @@ section {
 @media (max-width: 768px) {
   #menu-icon {
     display: block;
+    right: 0;
   }
   .nav-menu {
     position: relative;
     top: 100%;
-    left: 0;
+    right: 0;
     width:100%;
     padding: 1 rem 3%;
     background: var(--bg-color);
@@ -325,7 +326,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .button hover {
   box-shadow: none;
 }
-/* This is the about me section*/
+/*===== This is the about me section=====*/
 
 .about {
   background-image: url('images/aboutme.jpg');
