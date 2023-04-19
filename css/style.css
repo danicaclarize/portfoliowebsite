@@ -334,19 +334,26 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 
 /*========= This is the about me section =========*/
+#class {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items:center;
 
+}
 .about_container{
   width:100%;
   padding:50px 8%;
 }
 
-.about_container.about_contents{
+.about_container .about_contents{
   display: grid;
-  grid-template-columns: 2fr 5fr ;
+  grid-template-columns: 2fr 5fr;
   grid-gap: 70px;
 }
 
-.about_contents.aboutmeImage{
+.about_contents .aboutmeImage{
   position: relative;
   min-width:300px;
   height: 380px;
@@ -354,8 +361,8 @@ the element with a class social-media adn sets the properties for the elemenst*/
 }
 
 .aboutmeImage img {
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   object-fit: cover;
   
 }
