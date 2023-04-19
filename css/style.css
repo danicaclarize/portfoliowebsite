@@ -324,7 +324,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 }
 /*========= This is the about me section =========*/
 
-.about {
+.aboutmeImage {
   background-image: url('images/aboutme.jpg');
   background-size: cover;
   background-position: center;
