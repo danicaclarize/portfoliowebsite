@@ -115,6 +115,9 @@ section {
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, .2);
   z-index: 999;
+  top: 2rem; /* add top property to position it vertically in the middle of the header */
+  right: 2rem; /* change from 0 to 2rem to add some space from the right edge of the screen */
+  display: block; /* add display: block to override the display: none property in media query */
 }
 
 /* Mobile view */
