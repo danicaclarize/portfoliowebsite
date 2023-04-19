@@ -265,15 +265,33 @@ the element with a class social-media adn sets the properties for the elemenst*/
 }
 /* This is the about me section*/
 
+.about {
+  position: absolute; /* used as a full screen background*/
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3; /* sets the desired opacity of the video*/
+}
+
+.overlay {
+  position: absolute; /* used as a full screen background*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-color);
+  mix-blend-mode: overlay;
+
+}
+
+
 #aboutme {
   display: flex;
   font-size: 5rem;
   margin-bottom: 20px;
   
-}
-
-#image {
-  width:35vw
 }
 
 .about-content h3 {
