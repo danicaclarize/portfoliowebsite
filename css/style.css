@@ -340,12 +340,18 @@ the element with a class social-media adn sets the properties for the elemenst*/
   background-size: cover;
   background-position: center;
   height: 100vh;
+  padding:50px 8%;
   position: absolute; /* used as a full screen background*/
   top:0;
   left: 0;
   width: 100%;
   object-fit: cover;
   opacity: 0.3; 
+}
+
+.about_containers.about_contents{
+  display: grid;
+  grid-template-columns: 2fr 5fr ;
 }
 
 
