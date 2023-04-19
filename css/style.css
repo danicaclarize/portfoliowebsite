@@ -370,7 +370,7 @@ Section.about_containers{
   width: 50%;
   height: 50%;
   object-fit: cover;
-  z-index: 2;
+  
 }
 
 .about_contents.aboutmeImage :: after {
@@ -381,7 +381,6 @@ Section.about_containers{
   outline: 3px solid #99cabf;
   top: 15px;
   left: 15px;
-  z-index: 1;
   
 }
 
