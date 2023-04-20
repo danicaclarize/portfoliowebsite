@@ -470,12 +470,12 @@ the element with a class social-media adn sets the properties for the elemenst*/
   box-shadow: none;
 }
 
-/* ----- Skill Section -----*/
+/* ====== Skills Section ======*/
 
 .skillSec {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10px 80px;
+  grid-gap: 12px 75px;
 }
 
 .skillSec.experience{
