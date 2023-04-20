@@ -567,6 +567,12 @@ the element with a class social-media adn sets the properties for the elemenst*/
   }
 }
 
+@media(max-width: 668px){
+  .personalInfo{
+    grid-template-columns: 1fr;
+  }
+}
+
 
 
  
