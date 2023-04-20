@@ -435,7 +435,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   padding: 14px 0px 15px;
   text-transform: capitalize;
   letter-spacing: 1px;
-  margin-top: 10px;
+  margin-top: 5px;
 
 }
 
@@ -463,11 +463,11 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .personalInfo{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10px 20px;
+  grid-gap: 5px 10px;
   margin-top: 14px;
   padding-bottom:10px;
   border-bottom: 1.2px solid #beecf0;
-  font-size: 10px;
+  font-size: 18px;
 }
 
 .personalInfo div{
