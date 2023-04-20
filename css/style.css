@@ -497,18 +497,6 @@ the element with a class social-media adn sets the properties for the elemenst*/
 /* I watched from 'Five-Star Tutorials'! to help me formulate the section */
 
 
-.skill h1 {
-  color: #dedce1;
-  font-size: 30px;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-bottom: 10px;
-  position: absolute;
-  z-index: 2;
-
-
-}
-
 .skillSec {
   display: grid;
   grid-template-columns: 1fr 1fr; /*specifies how to display columns and rows/ 2 x 1 equal fractional units*/
