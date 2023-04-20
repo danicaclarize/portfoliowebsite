@@ -556,6 +556,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .skillSec {
   grid-template-columns: 1fr;
   grid-gap: 20px;
+}
  
 
 
