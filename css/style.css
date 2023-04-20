@@ -502,7 +502,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .skillSec {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 5px 10px;
+  grid-gap: 10px 20px;
   padding-top: 2px;
 }
 
@@ -542,6 +542,13 @@ the element with a class social-media adn sets the properties for the elemenst*/
   right: 0px;
   color: var(--white-color);
   font-size: 17px;
+
+}
+
+@media(max-width: 1068px){
+  .about_container .about_contents{
+    grid-template-areas: 'imageSect skillSect'
+                          'infoSectSect infoSect';
 
 }
 
