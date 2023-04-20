@@ -586,6 +586,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   display: inline-block;
   margin-bottom: 5px;
   position: relative;
+  text-align: center;
 }
 
 .portfolio-container {
@@ -676,7 +677,16 @@ the element with a class social-media adn sets the properties for the elemenst*/
 /*--Inspired by Codehal Youtube 2023*/
 
 .contact h2 {
-  margin-bottom 2rem;
+  margin-bottom: 4rem;
+  color: #dedce1;
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 5px;
+  position: relative;
+  text-align: center;
+}
 
 }
 
@@ -699,7 +709,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   width: 100%;
   padding: 1.5rem;
   font-size: 1.6rem;
-  color: var(--text-color);
+  color: #08352b;
   background: var(--main-color);
   border-radius: .10rem;
   margin: .7rem 0;
