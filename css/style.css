@@ -364,7 +364,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 .about_contents .aboutmeImage{
   position: relative;
-  min: width 300px;
+  min-width: 300px;
   height: 380px;
 
 }
@@ -473,7 +473,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 .personalInfo div span{
   color: var(--second-bg-color);
-  line-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 /*style the button (Halid 2023)*/
@@ -626,11 +626,18 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 .projectLayer h4 {
   font-size: 3rem;
+  color: #08352b;
+  text-shadow: #2c7a69;
+
 }
+
 
 .projectLayer p {
   font-size: 1.5rem;
   margin:.3rem 0 1rem;
+  color: #08352b;
+  text-shadow: #2c7a69;
+
 }
  
 .projectLayer a {
