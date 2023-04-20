@@ -500,11 +500,11 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .skill h1 {
   color: #dedce1;
   font-size: 30px;
-  margin-bottom: 5px;
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 10px;
   position: absolute;
+  z-index: 2;
 
 
 }
