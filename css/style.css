@@ -534,6 +534,16 @@ the element with a class social-media adn sets the properties for the elemenst*/
   border-radius: 15px;
 }
 
+.prog_line::after{
+  position: absolute;
+  content: attr(value);
+  top: -35px;
+  right: 0px;
+  color: var(--white-color);
+  font-size: 17px;
+
+}
+
 
 
 
