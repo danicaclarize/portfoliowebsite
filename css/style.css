@@ -498,11 +498,12 @@ the element with a class social-media adn sets the properties for the elemenst*/
 }
 
 /* ====== ******* Skills Section *******======*/
+/* I watched from 'Five-Star Tutorials'! to help me formulate the section */
 
 .skillSec {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px 80px;
+  grid-template-columns: 1fr 1fr; /*specifies how to display columns and rows/ 2 x 1 equal fractional units*/
+  grid-gap: 10px 50px; /*w3schools- https://www.w3schools.com/css/css_grid.asp*/
 }
 
 .skillSec .experience{
