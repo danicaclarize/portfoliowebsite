@@ -535,6 +535,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   border-radius: 15px;
 }
 
+/*Pseudo elements to generate the content of the element with the class prog_line*/
 .prog_line::after{
   position: absolute;
   content: attr(value);
