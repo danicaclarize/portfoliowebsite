@@ -670,7 +670,42 @@ the element with a class social-media adn sets the properties for the elemenst*/
   color: var(--second-bg-color)
 
 }
- 
+
+
+/*---*** Projects Section***---*/
+/*--Inspired by Codehal Youtube 2023*/
+
+.contact h2 {
+  margin-bottom 2rem;
+
+}
+
+.contact form {
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact form .input-box {
+  display: flex;
+  justify-content: space-between;
+  flex: wrap;
+
+}
+
+.contact form .input-box input,
+.contact form textarea {
+  width: 100%;
+  padding: 1.3rem;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  background: var(--main-color);
+  border-radius: 30%;
+  mardin: 7rem 0;
+
+}
+
 
 
 /*.about-content h3 {
