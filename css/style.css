@@ -502,7 +502,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .skillSec {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 12px 75px;
+  grid-gap: 12px 30px;
 }
 
 .skillSec .experience{
