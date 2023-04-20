@@ -459,6 +459,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   margin-top: 14px;
   padding-bottom:10px;
   border-bottom: 1.2px solid #beecf0;
+  font-size: 10px;
 }
 
 .personalInfo div{
@@ -496,9 +497,9 @@ the element with a class social-media adn sets the properties for the elemenst*/
   grid-gap: 12px 75px;
 }
 
-.skillSec.experience{
+.skillSec .experience{
   font-size: 18px;
-  font-weight: thin;
+  font-weight: bold;
   color: var(--white-color);
   padding-bottom: 10px;
   text-transform: uppercase;
