@@ -419,7 +419,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   font-size: 20px;
   font-weight: 600;
   color:var(--text-color);
-  padding: 14px 0px 15px;
+  padding: 5px 0px 15px;
   text-transform: capitalize;
   letter-spacing: 1px;
 
@@ -470,6 +470,19 @@ the element with a class social-media adn sets the properties for the elemenst*/
   box-shadow: none;
 }
 
+/* ----- Skill Section -----*/
+
+.skillSec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 80px;
+}
+
+.skillSec.experience{
+  font-size: 18px;
+  font-weight: thin;
+  color: var(--white-color)
+}
 
 
 
