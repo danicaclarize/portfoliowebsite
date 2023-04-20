@@ -337,12 +337,16 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .aboutmeImage{
   grid-area: imageSect;
   border: 1px solid white;
+  box-shadow: 0 0 1rem var(--main-color);
+  background-color: #99cabf;
+
 
 }
 
 .aboutInfo{
   grid-area: infoSect;
   border: 1px solid white;
+  background-color: #99cabf;
 }
 
 .skillSec {
@@ -353,7 +357,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .about_container .about_contents{
   display: grid;
   grid-template-columns: 2fr 5fr;
-  grid-gap: 70px;
+  grid-gap: 50px;
   grid-template-areas: 'imageSect infoSect'
                         'skillSect skillSect';
 }
