@@ -503,8 +503,9 @@ the element with a class social-media adn sets the properties for the elemenst*/
   margin-bottom: 5px;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 5px;
-  position: relative;
+  margin-bottom: 10px;
+  position: absolute;
+
 
 }
 
