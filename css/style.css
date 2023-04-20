@@ -626,19 +626,19 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 .projectLayer h4 {
   font-size: 3rem;
-  color: #08352b;
-  text-shadow: #2c7a69;
+  color: var(--text-color);
+  text-shadow: 0 0 5px #08352b;
 
 }
 
-
-.projectLayer p {
+.projectLayer p { /*asked chat GPT to add text shadow*/
   font-size: 1.5rem;
-  margin:.3rem 0 1rem;
-  color: #08352b;
-  text-shadow: #2c7a69;
-
+  margin: 0.3rem 0 1rem;
+  color: var(--text-color);
+  text-shadow: 0 0 5px #08352b;
 }
+
+
  
 .projectLayer a {
   display: inline-flex;
