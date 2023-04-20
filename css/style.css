@@ -406,9 +406,10 @@ the element with a class social-media adn sets the properties for the elemenst*/
   font-size: 15px;
   font-weight: 600;
   color:var(--text-color);
-  padding: 14px 0px 15px;
+  padding: 14px 10px 15px;
   text-transform: capitalize;
   letter-spacing: 1px;
+
 
 }
 
@@ -418,7 +419,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   font-size: 20px;
   font-weight: 600;
   color:var(--text-color);
-  padding: 14px 0px 15px;
+  padding: 14px 10px 15px;
   text-transform: capitalize;
   letter-spacing: 1px;
 
