@@ -720,6 +720,17 @@ the element with a class social-media adn sets the properties for the elemenst*/
   width: 49%;
 }
 
+.contact form textarea {
+  resize: none;
+
+}
+
+.contact form .button {
+  margin-top: 2rem;
+  cursor: pointer;
+
+}
+
 
 /*.about-content h3 {
   font-size: 3.5rem;
