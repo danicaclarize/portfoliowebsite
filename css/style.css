@@ -427,7 +427,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 .aboutInfo p{
   color:aquamarine;
-  font-size 18px;
+  font-size: 18px;
   line-height: 1.2;
   text-align: justify;
   padding-bottom: 8px;
@@ -443,6 +443,15 @@ the element with a class social-media adn sets the properties for the elemenst*/
   border-bottom: 1.2px solid #beecf0;
 }
 
+.personalInfo div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.personalInfo div span{
+  color: var(--second-bg-color);
+  line-spacing: 1px;
+}
 
 
 
