@@ -408,9 +408,9 @@ the element with a class social-media adn sets the properties for the elemenst*/
   position: absolute;
   width: 40%;
   height: 3px;
-  top: calc(110% 1px);
+  top: calc(110% - 1px);
   left: 0 px;
-  background-color: #08352b;
+  background-color: #2c7a69;
 
 }
 
