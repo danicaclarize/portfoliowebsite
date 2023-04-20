@@ -334,10 +334,28 @@ the element with a class social-media adn sets the properties for the elemenst*/
   padding:50px 8%;
 }
 
+.aboutmeImage{
+  grid-area: imageSect;
+  border: 1px solid white;
+
+}
+
+.aboutInfo{
+  grid-area: infoSect;
+  border: 1px solid white;
+}
+
+.skillSec {
+  grid-area: skillSect;
+  border: 1px solid white;
+}
+
 .about_container .about_contents{
   display: grid;
   grid-template-columns: 2fr 5fr;
   grid-gap: 70px;
+  grid-template-areas: 'imageSect infoSect'
+                        'skillSect skillSect';
 }
 
 .about_contents .aboutmeImage{
@@ -481,7 +499,10 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .skillSec.experience{
   font-size: 18px;
   font-weight: thin;
-  color: var(--white-color)
+  color: var(--white-color);
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 
