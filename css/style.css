@@ -502,14 +502,14 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .skillSec {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 12px 30px;
+  grid-gap: 5px 10px;
 }
 
 .skillSec .experience{
   font-size: 17px;
   font-weight: bold;
   color: var(--white-color);
-  padding-bottom: 5px;
+  padding-bottom: 2px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
