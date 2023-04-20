@@ -317,10 +317,10 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 
 
-/* ------ Home Elements End -------*/
+/* ------****** Home Elements End****** -------*/
 
 
-/*========= This is the about me section =========*/
+/*------****** This is the about me section *******-----*/
 #about {
   width: 100%;
   min-height: 100vh;
@@ -329,6 +329,8 @@ the element with a class social-media adn sets the properties for the elemenst*/
   align-items:center;
 
 }
+
+
 .about_container{
   width:100%;
   padding:50px 8%;
@@ -338,7 +340,8 @@ the element with a class social-media adn sets the properties for the elemenst*/
   grid-area: imageSect;
   border: 1px solid white;
   box-shadow: 0 0 1rem var(--main-color);
-  background-color: #99cabf;
+  background-color: #3699ad;
+  border-radius: 15px;
 
 
 }
@@ -346,7 +349,9 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .aboutInfo{
   grid-area: infoSect;
   border: 1px solid white;
-  background-color: #99cabf;
+  background-color: #3699ad;
+  box-shadow: 0 0 1rem var(--main-color);
+  border-radius: 15px;
 }
 
 .skillSec {
@@ -357,15 +362,15 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .about_container .about_contents{
   display: grid;
   grid-template-columns: 2fr 5fr;
-  grid-gap: 50px;
+  grid-gap: 30px;
   grid-template-areas: 'imageSect infoSect'
                         'skillSect skillSect';
 }
 
 .about_contents .aboutmeImage{
   position: relative;
-  min-width:400px;
-  height: 480px;
+  min: width 300px;px;
+  height: 380px;
 
 }
 
@@ -518,7 +523,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   border-top: 1px solid #08352b;
   border-bottom: 1px solid #444;
   border-radius: 15px;
-  
+
 
 }
 
