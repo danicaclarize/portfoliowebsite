@@ -355,8 +355,8 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 .about_contents .aboutmeImage{
   position: relative;
-  min-width:300px;
-  height: 380px;
+  min-width:400px;
+  height: 480px;
 
 }
 
