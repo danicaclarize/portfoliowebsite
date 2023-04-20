@@ -121,7 +121,7 @@ section {
   display: block; /* add display: block to override the display: none property in media query */
 }
 
-/* Mobile view */
+/*------- Mobile view-------- */
 @media only screen and (max-width: 1200px){
   html {
     font-size:55%;
@@ -174,12 +174,13 @@ section {
     margin: 3rem 0;
   }
 }
+/*------- Mobile View End-------- */
 
 /*--------------Header End--------------------*/
 
 
 
-/*----Create center layout for the home element----*/
+/*-------Create center layout for the home element------*/
 .home {
   position: relative;
   right:0;
@@ -286,7 +287,7 @@ span {
 }
 
 
-/* targets the anchor elements witthin  
+/* targets the anchor elements within  
 the element with a class social-media adn sets the properties for the elemenst*/
 .social-media a {
   display: inline-flex; /* sets the flex container with a single row*/
@@ -331,6 +332,8 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .button hover {
   box-shadow: none;
 }
+
+/* ------ Home Elements End -------*/
 
 
 /*========= This is the about me section =========*/
@@ -414,9 +417,21 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 }
 
+.aboutInfo h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color:var(--text-color);
+  padding: 14px 0px 15px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+
+}
+
+
 .aboutInfo h2{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20p;
+  font-size: 20px;
   font-weight: 600;
   color:var(--text-color);
   padding: 14px 0px 15px;
@@ -426,7 +441,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 }
 
 .aboutInfo p{
-  color:aquamarine;
+  color:var(--white-color);
   font-size: 18px;
   line-height: 1.2;
   text-align: justify;
