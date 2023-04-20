@@ -570,7 +570,23 @@ the element with a class social-media adn sets the properties for the elemenst*/
   }
 }
 
+/*---*** Projects Section***---*/
 
+.projects{
+  background: var(--second-bg-color)
+}
+
+.projects h2 {
+  margin-bottom: 4rem;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+
+}
 
  
  
