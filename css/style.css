@@ -316,22 +316,6 @@ the element with a class social-media adn sets the properties for the elemenst*/
 }
 
 
-/*style the button (Halid 2023)*/
-.button {
-  display: inline-block;
-  padding: 1rem 2.5rem;
-  background: var(--main-color);
-  border-radius: 4rem;
-  box-shadow: 0 0 1rem var(--main-color);
-  font-weight: 700;
-  margin-top: auto;
-  transition: .5s ease;
-  color: var(--bg-color)
-}
-
-.button hover {
-  box-shadow: none;
-}
 
 /* ------ Home Elements End -------*/
 
@@ -467,6 +451,24 @@ the element with a class social-media adn sets the properties for the elemenst*/
   color: var(--second-bg-color);
   line-spacing: 1px;
 }
+
+/*style the button (Halid 2023)*/
+.button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem var(--main-color);
+  font-weight: 700;
+  margin-top: auto;
+  transition: .5s ease;
+  color: var(--bg-color)
+}
+
+.button hover {
+  box-shadow: none;
+}
+
 
 
 
