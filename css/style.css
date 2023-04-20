@@ -595,6 +595,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   align-items: center;
   gap: 2.5rem;
 
+
 }
 
 .portfolio-container .portfolio-box {
@@ -603,6 +604,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
   display: flex;
+  box-shadow: 0 0 1rem var(--main-color);
 
 }
 
@@ -713,6 +715,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   background: var(--main-color);
   border-radius: .10rem;
   margin: .7rem 0;
+  box-shadow: 0 0 1rem var(--main-color);
 
 }
 
@@ -728,6 +731,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .contact form .button {
   margin-top: 2rem;
   cursor: pointer;
+
 
 }
 
