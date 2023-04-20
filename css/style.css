@@ -364,6 +364,8 @@ the element with a class social-media adn sets the properties for the elemenst*/
   width: 70%;
   height: 40%;
   object-fit: cover;
+  position: relative;
+  z-index: 2;
   
 }
 
@@ -372,7 +374,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   content:'';
   width: 50%;
   height: 50%;
-  outline: 3px solid #99cabf;
+  outline: 3px solid #08352b;
   top: 15px;
   left: 15px;
   
@@ -380,9 +382,10 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 .aboutInfo h1 {
   color: #dedce1;
-  font-size: 30px
-  margin-bottom:5px;
+  font-size: 30px;
+  margin-bottom: 5px;
   position:relative;
+  z-index: 1;
   
 }
 /*.about-content h3 {
