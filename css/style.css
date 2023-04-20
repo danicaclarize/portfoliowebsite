@@ -548,15 +548,28 @@ the element with a class social-media adn sets the properties for the elemenst*/
 }
 
 @media(max-width: 1068px){
-  .about_container .about_contents
+  .about_container .about_contents{
     grid-template-areas: 'imageSect skillSect'
-                          'infoSectSect infoSect';
-}
+                          'infoSect infoSect';
+  }
 
-.skillSec {
+  .skillSec {
   grid-template-columns: 1fr;
   grid-gap: 20px;
 }
+}
+
+@media(max-width: 868px){
+  .about_container .about_contents{
+    grid-template-areas: 'imageSect imageSect'
+                          'infoSect infoSect'
+                          'skillSect skillSect';
+  }
+}
+
+
+
+ 
  
 
 
