@@ -173,7 +173,6 @@ section {
   }
 }
 /*------- Mobile View End-------- */
-
 /*--------------Header End--------------------*/
 
 
@@ -198,12 +197,18 @@ section {
   z-index:10; /* sets the stacking over the video*/
 }
 
+#typewriter {
+  overflow: hidden;
+  border-right: solid 0.15em #000; /* Add a blinking cursor effect */
+  white-space: nowrap; /* Prevent line breaks */
+  margin: 0 auto; /* Center the text */
+  letter-spacing: 0.15em; /* Add spacing between characters */
+}
+
 /*Position the element over the video background*/
 .home-image {
   position: relative; /* positioning the element in its normal position*/
   z-index:10; /* sets the stacking over the video*/
-  
- 
 }
 
 

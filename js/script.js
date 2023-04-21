@@ -47,13 +47,43 @@ ScrollReveal({
 ScrollReveal().reveal('.home-content, .heading', {origin:'top }');
 ScrollReveal().reveal('.home-img, .portfolio-box, .contact form', {origin:'bottom'});
 
-// Typewriter Effect
+// Typewriter Effect (Chat GPT 2023, input "can you write me typewriter Java script")
 
-const typed = new Typed('.typewriter', {
-    strings: ['Danica Carlos', 'Bcom in IT & IS Student'],
-    typespeed: 100,
-    backspeed: 100,
-    backDelay: 1000,
-    loop: true
+// JavaScript
+const textArray = ["Welcome", "to", "my", "website!"]; // Array of text to be typed
+const typingSpeed = 100; // Speed of typing in milliseconds
+const backspacingSpeed = 50; // Speed of backspacing in milliseconds
+const delayBetweenTexts = 1000; // Delay between texts in milliseconds
 
-});
+let textIndex = 0; // Index of current text
+let charIndex = 0; // Index of current character
+let isTyping = true; // Flag to determine if typing or backspacing
+
+const typewriterElement = document.getElementById("typewriter"); // Get the typewriter element
+
+// Function to start the typewriter effect
+function startTypewriter() {
+  if (textIndex < textArray.length) {
+    if (isTyping) {
+      typewriterElement.textContent += textArray[textIndex][charIndex];
+      charIndex++;
+      if (charIndex === textArray[textIndex].length) {
+        isTyping = false;
+        setTimeout(startTypewriter, delayBetweenTexts);
+      } else {
+        setTimeout(startTypewriter, typingSpeed);
+      }
+    } else {
+      typewriterElement.textContent = typewriterElement.textContent.slice(0, -1);
+      charIndex--;
+      if (charIndex === 0) {
+        isTyping = true;
+        textIndex++;
+      }
+      setTimeout(startTypewriter, backspacingSpeed);
+    }
+  }
+}
+
+// Start the typewriter effect
+startTypewriter();
