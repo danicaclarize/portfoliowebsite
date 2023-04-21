@@ -735,6 +735,13 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 }
 
+.Reflection {
+  grid-area: infoSect;
+  border: 1px solid white;
+  background-color: #3699ad;
+  box-shadow: 0 0 1rem var(--main-color);
+  border-radius: 15px;
+}
 
 
 
