@@ -683,62 +683,63 @@ the element with a class social-media adn sets the properties for the elemenst*/
 /*---*** Projects Section***---*/
 
 
+/* Styles for the contact form heading */
 .contact h2 {
-  margin-bottom: 4rem;
-  color: #dedce1;
-  font-size: 30px;
-  margin-bottom: 5px;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-bottom: 5px;
-  position: relative;
-  text-align: center;
+  margin-bottom: 4rem; /* Adds margin below the heading */
+  color: #dedce1; /* Sets the text color to a specific value */
+  font-size: 30px; 
+  margin-bottom: 5px; /* Adds additional margin below the heading */
+  text-transform: uppercase; /* Applies uppercase text transformation */
+  display: inline-block; /* Displays the heading as an inline block element */
+  margin-bottom: 5px; /* Adds more margin below the heading */
+  position: relative; /* Sets the position property to relative */
+  text-align: center; 
 }
 
-}
-
+/* Styles for the contact form */
 .contact form {
-  max-width: 70rem;
-  margin: 1rem auto;
-  text-align: center;
-  margin-bottom: 2rem;
+  max-width: 70rem; /* Sets the maximum width of the form */
+  margin: 1rem auto; /* Adds margin around the form and centers it horizontally */
+  text-align: center; /* Centers the text within the form */
+  margin-bottom: 2rem; /* Adds margin below the form */
 }
 
+/* Styles for the input boxes within the contact form */
 .contact form .input-box {
-  display: flex;
-  justify-content: space-between;
-  flex: wrap;
-
+  display: flex; /* Displays the input boxes as a flex container */
+  justify-content: space-between; /* Applies space between each input box */
+  flex-wrap: wrap; /* Wraps the input boxes to the next line if they overflow */
 }
 
+/* Styles for input boxes and textarea within the input boxes */
 .contact form .input-box input,
 .contact form textarea {
-  width: 100%;
-  padding: 1.5rem;
-  font-size: 1.6rem;
-  color: #08352b;
-  background: var(--main-color);
-  border-radius: .10rem;
-  margin: .7rem 0;
-  box-shadow: 0 0 1rem var(--main-color);
-
+  width: 100%; /* Sets the width of the input boxes and textarea to 100% */
+  padding: 1.5rem; /* Adds padding within the input boxes and textarea */
+  font-size: 1.6rem; /* Sets the font size of the input boxes and textarea */
+  color: #08352b; /* Sets the text color to a specific value */
+  background: var(--main-color); /* Sets the background color to a variable value */
+  border-radius: .10rem; /* Adds border radius to the input boxes and textarea */
+  margin: .7rem 0; /* Adds margin above and below the input boxes and textarea */
+  box-shadow: 0 0 1rem var(--main-color); /* Adds a box shadow to the input boxes and textarea */
 }
 
+/* Styles for input boxes within the input boxes */
 .contact form .input-box input {
-  width: 49%;
+  width: 49%; /* Sets the width of the input boxes to 49% for two input boxes in a row */
 }
 
+/* Styles for the textarea within the input boxes */
 .contact form textarea {
-  resize: none;
-
+  resize: none; /* Disables resizing of the textarea */
 }
 
+/* Styles for the button within the contact form */
 .contact form .button {
-  margin-top: 2rem;
-  cursor: pointer;
-
-
+  margin-top: 2rem; /* Adds margin above the button */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
 }
+
 
 .Reflection {
   grid-area: infoSect;
