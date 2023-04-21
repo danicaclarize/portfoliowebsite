@@ -7,8 +7,6 @@ menuIcon.classList.toggle('bx-x');
 navbar.classList.toggle('active');
 };
 
-
-
 // Scroll Section Active Link
 var sections = document.querySelectorAll('section');
 var navLinks = document.querySelectorAll('header nav a');
@@ -34,18 +32,6 @@ window.onscroll = () => {
     });
 };
 
-// Scroll Reveal
-
-ScrollReveal({
-    reset: true,
-    distace:'80px',
-    duration: 2000,
-    delay: 200
-});
-
-
-ScrollReveal().reveal('.home-content, .heading', {origin:'top }');
-ScrollReveal().reveal('.home-img, .portfolio-box, .contact form', {origin:'bottom'});
 
 // Typewriter Effect (Chat GPT 2023, input "can you write me typewriter Java script")
 
