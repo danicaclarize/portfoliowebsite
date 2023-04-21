@@ -320,7 +320,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 
 
-/* ------    ****** Home Elements End******      -------*/
+/* ------ ****** Home Elements End******-------*/
 
 
 /*------****** This is About ME Section *******-----*/
@@ -681,7 +681,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 
 /*---*** Projects Section***---*/
-/*--Inspired by Codehal Youtube 2023*/
+
 
 .contact h2 {
   margin-bottom: 4rem;
@@ -746,6 +746,15 @@ the element with a class social-media adn sets the properties for the elemenst*/
   background-color: #3699ad;
   box-shadow: 0 0 1rem var(--main-color);
   border-radius: 15px;
+}
+
+
+/*------****** Footer *******-----*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 
