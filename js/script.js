@@ -87,3 +87,28 @@ function startTypewriter() {
 
 // Start the typewriter effect
 startTypewriter();
+
+
+
+
+// ---------------Download CV ---------------//
+
+// Find the element
+const downloadLink = document.getElementById('download-link'); // Get the download link element
+
+
+// Write the behaviour
+downloadLink.addEventListener('click', (event) => {
+  event.preventDefault(); // Prevent default link behavior
+  const fileURL = downloadLink.getAttribute('href'); // Get the file URL from the link's href attribute
+  const fileName = downloadLink.getAttribute('download'); // Get the file name from the link's download attribute
+  
+  // Create a new anchor element to trigger the download
+  const link = document.createElement('a');
+  link.href = danicaclarize/portfoliowebsite/CV-Danica_Yap.pdf;
+  link.download = CV-Danica_Yap;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+});
+
