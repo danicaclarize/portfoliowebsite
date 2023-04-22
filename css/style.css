@@ -150,7 +150,7 @@ section {
 
 
   .nav-menu {
-  position: relative;
+  position: absolute;
   top: 100%;
   right: 0;
   width:100%;
