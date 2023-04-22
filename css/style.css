@@ -653,7 +653,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 }
 
-.projectLayer { /* asked chatGPT to place <p> outside the box
+.projectLayer { /* asked chatGPT to place <p> outside the box*/
   position: absolute;
   bottom: 0;
   left: 0;
