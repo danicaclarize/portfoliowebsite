@@ -117,9 +117,6 @@ section {
 
 
 /*------- Mobile view (w3school)-------- */
-
-/*------- Mobile view (w3school)-------- */
-
 /*Media queries define mobile view styles in this code. */
 /*Media queries apply various styles dependent on the screen size of the device viewing the webpage. */ 
 /* Styles are specified for displays with a maximum width of 1200px, 992px, 768px, and 600px.*/
@@ -150,11 +147,11 @@ section {
   }
 }
 
-@media (min-width: 600px) {
+/*@media (min-width: 600px) {
   #menu-icon {
-    display: none; /* Hide the #menu-icon element for screens with a minimum width of 600px. */
+    display: none; /* Hide the #menu-icon element for screens with a minimum width of 600px. 
   }
-}
+}*/
 
 .nav-menu {
   position: relative;
