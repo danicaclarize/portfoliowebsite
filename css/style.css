@@ -147,7 +147,7 @@ section {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   #menu-icon {
     display: block;
     right: 0;
@@ -161,13 +161,13 @@ section {
   background: var(--bg-color);
   border-top: .1rem solid rgba(0, 0, 0, .2);
   box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
-  display: none;
+  display: block;
   }
 }
-/*
+
 .nav-menu.active {
-  display: block; /* Set the display property of the .nav-menu element to block when it has the class 'active'. 
-}*/
+  display: block; /* Set the display property of the .nav-menu element to block when it has the class 'active'. */
+}
 
 .nav-menu a {
   display: block;
