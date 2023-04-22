@@ -586,10 +586,8 @@ the element with a class social-media adn sets the properties for the elemenst*/
   margin-bottom: 4rem;
   color: #dedce1;
   font-size: 30px;
-  margin-bottom: 5px;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 5px;
   position: relative;
   text-align: center;
 }
@@ -647,9 +645,24 @@ the element with a class social-media adn sets the properties for the elemenst*/
 }
 
 .project-description h4 {
-  font-size: 3rem;
-  color: var(--text-color);
-  text-shadow: 0 0 5px #08352b;
+  margin-bottom: 4rem;
+  color: #dedce1;
+  font-size: 10px;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  }
+
+  .project-description p{
+    color: #dedce1;
+    font-size: 8px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    }
+  
 
 }
 
@@ -671,6 +684,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 }
 
 .project-description {
+  margin-top: 20px;
   position: absolute;
   bottom: 100%; /* Position the element above the .projectLayer element */
   left: 0;
