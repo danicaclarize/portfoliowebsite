@@ -36,7 +36,7 @@ Tags: Website, Branding, Colour Palette */
 /* sets the default size for the HTML document 
   and also hides the document that would overflow the horizontal axist of the viewport*/
 html {
-  font-size: 62.5%; 
+  font-size: 16px /*62.5%; */
   overflow-x: hidden;
 }
 
@@ -332,6 +332,9 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 
 /*------****** This is About ME Section *******-----*/
+
+/* The main container has a "about" selection. The width is 100%, the
+ minimum height is 100 viewport height units, and flexbox centres the content vertically and horizontally.*/
 #about {
   width: 100%;
   min-height: 100vh;
@@ -697,8 +700,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   min-height: 100vh;
   display: flex;
   justify-content:center;
-  align-items:center;
-  padding:20px 8%;
+  padding:10px 8%;
 }
 
 .description{
