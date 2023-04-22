@@ -227,7 +227,7 @@ section {
 
 /*Selects all  'h3' elements that are children of the class 'home-content'*/
 .home-content h3 {
-  font-weight: 600px; /* sets the text to bold*/
+  font-weight: 600; /* sets the text to bold*/
   font-size: 2.5rem; /* based on the font size of the root element which is the html*/
 }
 
@@ -434,7 +434,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   width: 40%;
   height: 3px;
   top: calc(110% - 1px);
-  left: 0 px;
+  left: 0;
   background-color: #2c7a69;
 
 }
@@ -701,7 +701,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   display: flex;
   justify-content:center;
   align-items:center;
-  padding:px 8%;
+  padding:0 8%;
 }
 
 .description{
