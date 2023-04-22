@@ -129,7 +129,7 @@ section {
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .header {
     padding: 2rem 3%; /* Set padding for the header element for screens with a maximum width of 992px. */
   }
@@ -158,7 +158,7 @@ section {
   background: var(--bg-color);
   border-top: .1rem solid rgba(0, 0, 0, .2);
   box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
-  display: block;
+  display: none;
   }
 }
 
