@@ -644,29 +644,6 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 }
 
-/*Descriptions and Technological and Tools*/
-
-.project-description {
-  color: #dedce1;
-  font-size: 8px;
-  margin-bottom: 5px;
-  text-transform: uppercase;
-  position: relative;
-  text-align: center;
-  margin-top: 20px;
-  }
-
-.project-description h4 {
-  margin-bottom: 4rem;
-  color: #dedce1;
-  font-size: 10px;
-  text-transform: uppercase;
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  }
-
-
 
 .projectLayer { 
   position: absolute;
@@ -707,6 +684,29 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 }
 
+/*Descriptions and Technological and Tools*/
+.description{
+  background: var(--bg-color)
+}
+.project-description {
+  color: #dedce1;
+  font-size: 8px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  }
+
+.project-description h4 {
+  margin-bottom: 4rem;
+  color: #dedce1;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  }
 
 /*---*** Projects Section ends***---*/
 
