@@ -44,17 +44,6 @@ html {
 body { 
   background: var(--bg-color); 
   color: var(--text-color);
-  /*background-image: url('danicaclarize/portfoliowebsite/images/Black Minimalist Modern AI Robot Presentation.png') no-repeat center center fixed;
-  background-size: cover;
-  background-repeat: no-repeat;*/
-  /*margin: 0;  
-  padding: 0;
-  font-family: Helvetica, sans-serif;
-  background-color: blanchedalmond;*/
-/*margin: 0;  
-padding: 0;
-font-family: Helvetica, sans-serif;
-background-color: blanchedalmond;* --- previous body design----*/
 }
 
 
@@ -64,6 +53,8 @@ section {
   padding: 10rem 9% 2rem; /* padding sets to 10 times the font size of the root element 
   and the right and left padding to 9% of the width and the bottom padding to 2 times of the root element*/
 }
+
+
 
 
 /*--------------header styling-----------------*/
@@ -121,63 +112,79 @@ section {
   display: none; /* add display: block to override the display: none property in media query */
 }
 
-/*------- Mobile view-------- */
+
+
+
+
+/*------- Mobile view (w3school)-------- */
+
+/*------- Mobile view (w3school)-------- */
+
+/*Media queries define mobile view styles in this code. */
+/*Media queries apply various styles dependent on the screen size of the device viewing the webpage. */ 
+/* Styles are specified for displays with a maximum width of 1200px, 992px, 768px, and 600px.*/
+
+
 @media only screen and (max-width: 1200px){
   html {
-    font-size:55%;
+    font-size:55%; /* Set the font size of the HTML element to 55% of the default size for screens with a maximum width of 1200px. */
   }
 }
-@media (max-width: 991px) {
+
+@media (max-width: 992px) {
   .header {
-    padding: 2rem 3%
+    padding: 2rem 3%; /* Set padding for the header element for screens with a maximum width of 992px. */
   }
   section {
-    padding: 10rem 3% 2rem;
+    padding: 10rem 3% 2rem; /* Set padding for the section element for screens with a maximum width of 992px. */
   }
   .footer {
-    padding: 2rem 3%;
+    padding: 2rem 3%; /* Set padding for the footer element for screens with a maximum width of 992px. */
   }
 }
 
 @media (max-width: 768px) {
   #menu-icon {
     display: block;
-    right: 0;
+    right: 0; /* Set the right property of the #menu-icon element to 0 for screens with a maximum width of 768px. */
   }
-@media (min-width: 769px) {
-    #menu-icon {
-      display: none;
-    }
-  }  
-  .nav-menu {
-    position: relative;
-    top: 100%;
-    right: 0;
-    width:100%;
-    padding: 1 rem 3%;
-    background: var(--bg-color);
-    border-top: .1rem solid rgba(0, 0, 0, .2);
-    box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
-    display: none;
-  }
+}
 
-  .nav-menu.active {
-    display: block;
+@media (min-width: 600px) {
+  #menu-icon {
+    display: none; /* Hide the #menu-icon element for screens with a minimum width of 600px. */
   }
+}
 
+.nav-menu {
+  position: relative;
+  top: 100%;
+  right: 0;
+  width:100%;
+  padding: 1rem 3%;
+  background: var(--bg-color);
+  border-top: .1rem solid rgba(0, 0, 0, .2);
+  box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
+  display: none;
+}
 
-  .nav-menu a {
-    display: block;
-    font-size: 2rem;
-    margin: 3rem 0;
-  }
+.nav-menu.active {
+  display: block; /* Set the display property of the .nav-menu element to block when it has the class 'active'. */
+}
+
+.nav-menu a {
+  display: block;
+  font-size: 2rem;
+  margin: 3rem 0;
 }
 /*------- Mobile View End-------- */
 /*--------------Header End--------------------*/
 
 
 
-/*-------Create center layout for the home element------*/
+
+
+/*-------Create center layout for the home element (ChatGPT and w3school is used to formulate the code)------*/
 .home {
   position: relative;
   right:0;
@@ -230,6 +237,7 @@ section {
   margin-bottom: 2rem;
 
 }
+
 
 
 /*design and positioning of the video background*/
@@ -317,10 +325,10 @@ the element with a class social-media adn sets the properties for the elemenst*/
   box-shadow: 0 0 1rem var(--main-color);
   margin: 20px;
 }
-
-
-
 /* ------ ****** Home Elements End******-------*/
+
+
+
 
 
 /*------****** This is About ME Section *******-----*/
