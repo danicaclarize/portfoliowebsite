@@ -696,32 +696,27 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 /*Descriptions and Technological and Tools*/
 .description{
-  background: var(--bg-color)
+  border: 1px solid white;
+  background-color: #3699ad;
+  box-shadow: 0 0 1rem var(--main-color);
+  border-radius: 15px;
 }
-.project-description  {
-  color: #dedce1;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  position: relative;
-  text-align: center;
-  margin-top: 20px;
-  }
+
 
 .project-description h4 {
   margin-bottom: 4rem;
   color: #dedce1;
-  font-size: 50px;
+  font-size: 30px;
   text-transform: uppercase;
   display: inline-block;
   position: relative;
   text-align: center;
   }
 
-  .project-description h4 {
+  .project-description p {
     margin-bottom: 4rem;
     color: #dedce1;
     font-size: 50px;
-    text-transform: uppercase;
     display: inline-block;
     position: relative;
     text-align: center;
@@ -796,7 +791,6 @@ the element with a class social-media adn sets the properties for the elemenst*/
 /*---*** Reflection Section Starts***---*/
 
 .Reflection {
-  grid-area: infoSect;
   border: 1px solid white;
   background-color: #3699ad;
   box-shadow: 0 0 1rem var(--main-color);
@@ -817,7 +811,6 @@ text-align: center;
   color: #dedce1;
   font-size: 15px;
   margin-bottom: 5px;
-  text-transform: uppercase;
   position: relative;
   text-align: justify;
   margin: 20 20 20 20;
