@@ -836,6 +836,7 @@ text-align: center;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding: 2rem 9%;
   background-color: #2c7a69;
 
 }
@@ -850,8 +851,7 @@ text-align: center;
 .footer-text p {
   align-items: center;
   color:var(--white-color);
-  font-size: 5px;
-  line-height: 1.2;
+  font-size: 1.6rem;
   text-align: justify;
-  padding-bottom: 8px;
+
 }
