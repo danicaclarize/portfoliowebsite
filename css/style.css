@@ -575,7 +575,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   }
 }
 
-/*---*** Projects Section***---*/
+/*---******* Projects Section********---*/
 /*--Inspired by Codehal Youtube 2023*/
 
 .projects{
@@ -653,23 +653,43 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 }
 
-.projectLayer {
-  /* Existing styles */
-  /* ... */
+.projectLayer { /* asked chatGPT to place <p> outside the box
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, .1), #103a31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+  padding: 0 4rem;
   transform: translateY(100%);
   transition: 3s ease;
-  position: absolute; /* Add this property */
-  bottom: -100%; /* Add this property */
-  left: 0; /* Add this property */
 }
 
-.projectLayer p { /*asked chat GPT to add text shadow*/
+.project-description {
+  position: absolute;
+  bottom: 100%; /* Position the element above the .projectLayer element */
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.projectLayer:hover {
+  transform: translateY(0);
+}
+
+/*.projectLayer p { /*asked chat GPT to add text shadow
   font-size: 1.5rem;
   margin: 0.3rem 0 1rem;
   color: var(--text-color);
   text-shadow: 0 0 5px #08352b;
   
-}
+*/
 
 
  
