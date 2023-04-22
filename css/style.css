@@ -109,7 +109,7 @@ section {
   z-index: 999;
   top: 2rem; /* add top property to position it vertically in the middle of the header */
   right: 2rem; /* change from 0 to 2rem to add some space from the right edge of the screen */
-  display: block; /* add display: block to override the display: none property in media query */
+  display: none; /* add display: block to override the display: none property in media query */
 }
 
 
