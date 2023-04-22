@@ -688,9 +688,9 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .description{
   background: var(--bg-color)
 }
-.project-description {
+.project-description p {
   color: #dedce1;
-  font-size: 8px;
+  font-size: 30px;
   margin-bottom: 5px;
   text-transform: uppercase;
   position: relative;
@@ -701,7 +701,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .project-description h4 {
   margin-bottom: 4rem;
   color: #dedce1;
-  font-size: 20px;
+  font-size: 50px;
   text-transform: uppercase;
   display: inline-block;
   position: relative;
@@ -793,6 +793,17 @@ display: inline-block;
 position: relative;
 text-align: center;
 }
+
+.reflection p {
+  color: #dedce1;
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  }
+
 
 /*---***Reflection Section Ends***---*/
 
