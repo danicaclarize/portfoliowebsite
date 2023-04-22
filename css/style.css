@@ -695,7 +695,6 @@ the element with a class social-media adn sets the properties for the elemenst*/
 #description{
   width: 100%;
   min-height: 100vh;
-  display: flex;
   justify-content:center;
   align-items:center;
   padding:0 8%;
@@ -715,7 +714,6 @@ the element with a class social-media adn sets the properties for the elemenst*/
   color: #dedce1;
   font-size: 30px;
   text-transform: uppercase;
-  display: inline-block;
   position: relative;
   text-align: center;
 }
