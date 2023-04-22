@@ -121,54 +121,6 @@ section {
 /*Media queries apply various styles dependent on the screen size of the device viewing the webpage. */ 
 /* Styles are specified for displays with a maximum width of 1200px, 992px, 768px, and 600px.*/
 
-
-@media only screen and (max-width: 1200px){
-  html {
-    font-size:55%; /* Set the font size of the HTML element to 55% of the default size for screens with a maximum width of 1200px. */
-  }
-}
-
-
-@media (max-width: 991px) {
-  .header {
-    padding: 2rem 3%; /* Set padding for the header element for screens with a maximum width of 992px. */
-  }
-  section {
-    padding: 10rem 3% 2rem; /* Set padding for the section element for screens with a maximum width of 992px. */
-  }
-  .footer {
-    padding: 2rem 3%; /* Set padding for the footer element for screens with a maximum width of 992px. */
-  }
-}
-
-
-@media (max-width: 768px) {
-  #menu-icon {
-    display: block;
-    right: 0;
-  }
-  .nav-menu {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  width:100%;
-  padding: 1rem 3%;
-  background: var(--bg-color);
-  border-top: .1rem solid rgba(0, 0, 0, .2);
-  box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
-  display: none;
-  }
-}
-
-.nav-menu.active {
-  display: block; /* Set the display property of the .nav-menu element to block when it has the class 'active'. */
-}
-
-.nav-menu a {
-  display: block;
-  font-size: 2rem;
-  margin: 3rem 0;
-}
 /*------- Mobile View End-------- */
 /*--------------Header End--------------------*/
 
@@ -690,15 +642,15 @@ It specifies the grid areas for the child elements,
 }
 
 /*Descriptions and Technological and Tools*/
-#description{
+#description {
   width: 100%;
   min-height: 100vh;
   justify-content:center;
   align-items:center;
-  padding:0 8%;
+  padding: 0 8%;
 }
 
-.description{
+.description {
   border: 1px solid white;
   background-color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
@@ -707,22 +659,22 @@ It specifies the grid areas for the child elements,
   padding: 20px;
 }
 
-
 .project-description h4 {
   color: #dedce1;
-  font-size: 30px;
+  font-size: 40px;
   text-transform: uppercase;
   position: relative;
   text-align: center;
 }
 
 .project-description p {
-  color:var(--white-color);
-  font-size: 18px;
+  color: var(--white-color);
+  font-size: 20px;
   line-height: 1.2;
   text-align: justify;
   padding-bottom: 8px;
 }
+
 
 /*---*** Projects Section ends***---*/
 
