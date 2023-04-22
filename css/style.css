@@ -592,6 +592,16 @@ the element with a class social-media adn sets the properties for the elemenst*/
   text-align: center;
 }
 
+.projects p {
+  margin-bottom: 4rem;
+  color: #dedce1;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
 .portfolio-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -688,10 +698,9 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .description{
   background: var(--bg-color)
 }
-.project-description p {
+.project-description  {
   color: #dedce1;
-  font-size: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   text-transform: uppercase;
   position: relative;
   text-align: center;
@@ -707,6 +716,16 @@ the element with a class social-media adn sets the properties for the elemenst*/
   position: relative;
   text-align: center;
   }
+
+  .project-description h4 {
+    margin-bottom: 4rem;
+    color: #dedce1;
+    font-size: 50px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    }
 
 /*---*** Projects Section ends***---*/
 
@@ -796,11 +815,11 @@ text-align: center;
 
 .reflection p {
   color: #dedce1;
-  font-size: 30px;
+  font-size: 15px;
   margin-bottom: 5px;
   text-transform: uppercase;
   position: relative;
-  text-align: center;
+  text-align: justify;
   margin: 20 20 20 20;
   }
 
