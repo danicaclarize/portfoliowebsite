@@ -36,7 +36,7 @@ Tags: Website, Branding, Colour Palette */
 /* sets the default size for the HTML document 
   and also hides the document that would overflow the horizontal axist of the viewport*/
 html {
-  font-size: 16px /*62.5%; */
+  font-size: 62.5%; 
   overflow-x: hidden;
 }
 
@@ -53,8 +53,6 @@ section {
   padding: 10rem 9% 2rem; /* padding sets to 10 times the font size of the root element 
   and the right and left padding to 9% of the width and the bottom padding to 2 times of the root element*/
 }
-
-
 
 
 
@@ -111,7 +109,8 @@ section {
   z-index: 999;
   top: 2rem; /* add top property to position it vertically in the middle of the header */
   right: 2rem; /* change from 0 to 2rem to add some space from the right edge of the screen */
-  display: block; 
+  display: none; /* add display: block to override the display: none property in media query */
+}
 
 
 
@@ -119,10 +118,12 @@ section {
 
 /*------- Mobile view (w3school)-------- */
 
+/*------- Mobile view (w3school)-------- */
 
 /*Media queries define mobile view styles in this code. */
 /*Media queries apply various styles dependent on the screen size of the device viewing the webpage. */ 
 /* Styles are specified for displays with a maximum width of 1200px, 992px, 768px, and 600px.*/
+
 
 @media only screen and (max-width: 1200px){
   html {
@@ -324,13 +325,13 @@ the element with a class social-media adn sets the properties for the elemenst*/
   box-shadow: 0 0 1rem var(--main-color);
   margin: 20px;
 }
-/* -----------  Home Elements End  -----------------*/
+/* ------ ****** Home Elements End******-------*/
 
 
 
 
 
-/*------------ This is About ME Section -------------*/
+/*------****** This is About ME Section *******-----*/
 
 /* The main container has a "about" selection. The width is 100%, the
  minimum height is 100 viewport height units, and flexbox centres the content vertically and horizontally.*/
@@ -508,8 +509,8 @@ the element with a class social-media adn sets the properties for the elemenst*/
   box-shadow: none;
 }
 
-/* ----------Skills Section---------------------*/
-/* watched from 'Five-Star Tutorials'! to help me formulate the section */
+/* ====== ******* Skills Section *******======*/
+/* I watched from 'Five-Star Tutorials'! to help me formulate the section */
 
 
 .skillSec {
@@ -697,13 +698,15 @@ the element with a class social-media adn sets the properties for the elemenst*/
 #description{
   width: 100%;
   min-height: 100vh;
+  display: flex;
   justify-content:center;
-  padding:10px 8%;
+  align-items:center;
+  padding:px 8%;
 }
 
 .description{
   border: 1px solid white;
-  background-color: #3699ad;
+  background-color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
   border-radius: 15px;
   margin: auto;
@@ -721,7 +724,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 }
 
 .project-description p {
-  color: #08352b;
+  color:var(--white-color);
   font-size: 18px;
   line-height: 1.2;
   text-align: justify;
@@ -799,6 +802,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 #reflection{
   width: 100%;
   min-height: 100vh;
+  display: flex;
   justify-content:center;
   align-items:center;
   }
