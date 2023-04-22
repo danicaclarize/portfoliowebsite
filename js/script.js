@@ -35,22 +35,27 @@ window.onscroll = () => { // Add a scroll event listener to the window
 
 
 
-// ---------------Toggle Icon for navigation bar---------------//
-// Step 1: Find the element
+// ---------------Typewriter Effect---------------//
 
-const typewriterElement = document.getElementById("typewriter"); // Get the typewriter element
+
+// Step 1: Find the element
+var typewriterElement = document.getElementById("typewriter"); // Get the typewriter element
 
 // Step 2: Write the behavior 
-const textArray = ["Danica Yap"]; // Text to be typed
-const typingSpeed = 100; // Speed of typing in milliseconds
-const backspacingSpeed = 100; // Speed of backspacing in milliseconds
-const delayBetweenTexts = 1000; // Delay between texts in milliseconds
+var textArray = ["Danica Yap"]; // Text to be typed
+var typingSpeed = 100; // Speed of typing in milliseconds
+var backspacingSpeed = 100; // Speed of backspacing in milliseconds
+var delayBetweenTexts = 1000; // Delay between texts in milliseconds
 
-let textIndex = 0; // Index of current text
-let charIndex = 0; // Index of current character
-let isTyping = true; // Flag to determine if typing or backspacing
+var textIndex = 0; // Index of current text
+var charIndex = 0; // Index of current character
+var isTyping = true; // Flag to determine if typing or backspacing
+
+
 
 // Function to start the typewriter effect
+
+
 function startTypewriter() {
   if (textIndex < textArray.length) {
     if (isTyping) {
@@ -71,13 +76,16 @@ function startTypewriter() {
       }
       setTimeout(startTypewriter, backspacingSpeed);
     }
+  } else {
+    // Reset the textIndex to 0 to implement loop
+    textIndex = 0;
+    // Restart the typewriter effect after a delay
+    setTimeout(startTypewriter, delayBetweenTexts);
   }
 }
 
 // Start the typewriter effect
 startTypewriter();
-
-
 
 
 
