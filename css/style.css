@@ -690,6 +690,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   display: flex;
   justify-content:center;
   align-items:center;
+  padding:20px 8%;
 }
 
 .description{
@@ -794,7 +795,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   justify-content:center;
   align-items:center;
   }
-}
+
 
 .reflection {
   border: 1px solid white;
@@ -802,7 +803,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   box-shadow: 0 0 1rem var(--main-color);
   border-radius: 15px;
   margin: auto;
-  padding: 20px;
+  padding:20px 8%;
 }
 
 .reflection h2 {
