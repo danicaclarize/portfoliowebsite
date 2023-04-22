@@ -109,7 +109,7 @@ section {
   z-index: 999;
   top: 2rem; /* add top property to position it vertically in the middle of the header */
   right: 2rem; /* change from 0 to 2rem to add some space from the right edge of the screen */
-  display: none; /* add display: block to override the display: none property in media query */
+  display: block; /* add display: block to override the display: none property in media query */
 }
 
 
@@ -124,15 +124,20 @@ section {
 /*------- Mobile View End-------- */
 /*--------------Header End--------------------*/
 
-
-
-
 @media only screen and (max-width: 1200px){
   html {
     font-size:55%; /* Set the font size of the HTML element to 55% of the default size for screens with a maximum width of 1200px. */
   }
 }
 
+@media (min-width: 1200px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}
 
 @media (max-width: 991px) {
   .header {
@@ -147,13 +152,16 @@ section {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .header {
+    display: none;
+  }
   #menu-icon {
     display: block;
     right: 0;
   }
   .nav-menu {
-  position: absolute;
+  position: relative;
   top: 100%;
   right: 0;
   width:100%;
@@ -709,7 +717,7 @@ It specifies the grid areas for the child elements,
 }
 
 .project-description h4 {
-  color: #dedce1;
+  color:#111111
   font-size: 50px;
   text-transform: uppercase;
   text-align: center;
