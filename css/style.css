@@ -634,7 +634,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
+  text-align: justify;
   padding: 0 4rem;
   transform: translateY(100%);
   transition: 3s ease;
@@ -653,11 +653,22 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 }
 
+.projectLayer {
+  /* Existing styles */
+  /* ... */
+  transform: translateY(100%);
+  transition: 3s ease;
+  position: absolute; /* Add this property */
+  bottom: -100%; /* Add this property */
+  left: 0; /* Add this property */
+}
+
 .projectLayer p { /*asked chat GPT to add text shadow*/
   font-size: 1.5rem;
   margin: 0.3rem 0 1rem;
   color: var(--text-color);
   text-shadow: 0 0 5px #08352b;
+  
 }
 
 
