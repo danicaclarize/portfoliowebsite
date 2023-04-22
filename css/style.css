@@ -194,7 +194,7 @@ section {
   display: flex; /*sets display property to the element flex*/
   justify-content: space-between; /* sets in the flex container*/
   align-items: center; /*aligns flex items along the vertical axis by default to the center of the flex container */
-  background: #111
+  background: #111;
   /*z-index: 2;*/
 }
 
