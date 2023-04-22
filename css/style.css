@@ -366,12 +366,15 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .skillSec {
   grid-area: skillSect;
 }
-
+/*  Seelector defines the grid layout for the "About Me" container. 
+It specifies the grid areas for the child elements,
+ with the image section in imageSect, the info section in infoSect, 
+ and the skill section in skillSect.*/
 .about_container .about_contents{
   display: grid;
   grid-template-columns: 2fr 5fr;
   grid-gap: 30px;
-  grid-template-areas: 'imageSect infoSect'
+  grid-template-areas: 'imageSect infoSect' /*Specifies area within grid layout W3school*/
                         'skillSect skillSect';
 }
 
@@ -731,8 +734,6 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 /* Styles for the contact form heading */
 
-
-
 .contact h2 {
   margin-bottom: 4rem; /* Adds margin below the heading */
   color: #dedce1; /* Sets the text color to a specific value */
@@ -750,7 +751,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
   max-width: 70rem; /* Sets the maximum width of the form */
   margin: 1rem auto; /* Adds margin around the form and centers it horizontally */
   text-align: center; /* Centers the text within the form */
-  margin-bottom: 2rem; /* Adds margin below the form */
+  margin-bottom: 2rem; 
 }
 
 /* Styles for the input boxes within the contact form */
@@ -763,14 +764,14 @@ the element with a class social-media adn sets the properties for the elemenst*/
 /* Styles for input boxes and textarea within the input boxes */
 .contact form .input-box input,
 .contact form textarea {
-  width: 100%; /* Sets the width of the input boxes and textarea to 100% */
-  padding: 1.5rem; /* Adds padding within the input boxes and textarea */
-  font-size: 1.6rem; /* Sets the font size of the input boxes and textarea */
-  color: #08352b; /* Sets the text color to a specific value */
-  background: var(--main-color); /* Sets the background color to a variable value */
-  border-radius: .10rem; /* Adds border radius to the input boxes and textarea */
+  width: 100%; 
+  padding: 1.5rem; 
+  font-size: 1.6rem; 
+  color: #08352b;
+  background: var(--main-color); 
+  border-radius: .10rem; 
   margin: .7rem 0; /* Adds margin above and below the input boxes and textarea */
-  box-shadow: 0 0 1rem var(--main-color); /* Adds a box shadow to the input boxes and textarea */
+  box-shadow: 0 0 1rem var(--main-color); 
 }
 
 /* Styles for input boxes within the input boxes */
@@ -780,7 +781,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 /* Styles for the textarea within the input boxes */
 .contact form textarea {
-  resize: none; /* Disables resizing of the textarea */
+  resize: none; 
 }
 
 /* Styles for the button within the contact form */
@@ -839,4 +840,22 @@ text-align: center;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  background-color: #2c7a69;
+
+}
+
+.footer-text{
+  color:var(--white-color);
+  font-size: 5px;
+  text-align: justify;
+  padding-bottom: 8px;
+}
+
+.footer-text p {
+  align-items: center;
+  color:var(--white-color);
+  font-size: 5px;
+  line-height: 1.2;
+  text-align: justify;
+  padding-bottom: 8px;
 }
