@@ -109,7 +109,7 @@ section {
   z-index: 999;
   top: 2rem; /* add top property to position it vertically in the middle of the header */
   right: 2rem; /* change from 0 to 2rem to add some space from the right edge of the screen */
-  display: block; /* add display: block to override the display: none property in media query */
+  display: none; /* add display: block to override the display: none property in media query */
 }
 
 
@@ -128,6 +128,7 @@ section {
   }
 }
 
+
 @media (max-width: 992px) {
   .header {
     padding: 2rem 3%; /* Set padding for the header element for screens with a maximum width of 992px. */
@@ -140,18 +141,13 @@ section {
   }
 }
 
+
 @media (max-width: 768px) {
   #menu-icon {
     display: block;
-    right: 0; /* Set the right property of the #menu-icon element to 0 for screens with a maximum width of 768px. */
+    right: 0;
   }
 }
-
-/*@media (min-width: 600px) {
-  #menu-icon {
-    display: none; /* Hide the #menu-icon element for screens with a minimum width of 600px. 
-  }
-}*/
 
 .nav-menu {
   position: relative;
