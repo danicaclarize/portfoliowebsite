@@ -697,7 +697,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 /*Descriptions and Technological and Tools*/
 .description{
   border: 1px solid white;
-  background-color: var(--second-bg-color)
+  background-color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
   border-radius: 15px;
   margin: auto;
@@ -712,16 +712,16 @@ the element with a class social-media adn sets the properties for the elemenst*/
   display: inline-block;
   position: relative;
   text-align: center;
-  }
+}
 
-  .project-description p {
-    margin-bottom: 4rem;
-    color: #dedce1;
-    font-size: 20px;
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    }
+.project-description p {
+  margin-bottom: 4rem;
+  color: #dedce1;
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
 
 /*---*** Projects Section ends***---*/
 
@@ -791,7 +791,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 /*---*** Reflection Section Starts***---*/
 
-.Reflection {
+.reflection {
   border: 1px solid white;
   background-color: #3699ad;
   box-shadow: 0 0 1rem var(--main-color);
@@ -926,8 +926,3 @@ header a:hover {
   background: grey;
   color: white;
 }
-
-
-
-/* Reference 
-Halid. 2023. "Build a Complete Responsive Personal Portfolio Website using HTML CSS Javascript"
