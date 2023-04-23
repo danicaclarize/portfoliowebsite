@@ -63,6 +63,7 @@ section {
   top: 0; /* there is 0 distance from the top edge of the screen*/
   left: 0;/* there is 0 distance from the left edge of the screen*/
   width: 100%;
+  display: flex;
   padding: 2rem 9%; 
   background: var(--bg-color); 
   justify-content: space-between;
@@ -129,58 +130,6 @@ section {
   }
 }
 
-@media (min-width: 1200px) {
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-}
-
-@media (max-width: 991px) {
-  .header {
-    padding: 2rem 3%; /* Set padding for the header element for screens with a maximum width of 992px. */
-  }
-  section {
-    padding: 10rem 3% 2rem; /* Set padding for the section element for screens with a maximum width of 992px. */
-  }
-  .footer {
-    padding: 2rem 3%; /* Set padding for the footer element for screens with a maximum width of 992px. */
-  }
-}
-
-
-@media (max-width: 768px) {
-  .header {
-    display: none;
-  }
-  #menu-icon {
-    display: block;
-    right: 0;
-  }
-  .nav-menu {
-  position: relative;
-  top: 100%;
-  right: 0;
-  width:100%;
-  padding: 1rem 3%;
-  background: var(--bg-color);
-  border-top: .1rem solid rgba(0, 0, 0, .2);
-  box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
-  display: block;
-  }
-}
-
-.nav-menu.active {
-  display: block; /* Set the display property of the .nav-menu element to block when it has the class 'active'. */
-}
-
-.nav-menu a {
-  display: block;
-  font-size: 2rem;
-  margin: 3rem 0;
-}
 
 
 /*-------Create center layout for the home element (ChatGPT and w3school is used to formulate the code)------*/
