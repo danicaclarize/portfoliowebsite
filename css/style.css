@@ -320,7 +320,7 @@ the element with a class social-media adn sets the properties for the elemenst*/
 
 #SkillSec {
 
-  
+
 }
 /*  Seelector defines the grid layout for the "About Me" container. 
 It specifies the grid areas for the child elements,
@@ -416,6 +416,7 @@ It specifies the grid areas for the child elements,
   padding: 5px 0px 15px;
   text-transform: capitalize;
   letter-spacing: 1px;
+  padding-top: 5px;
 
 }
 
@@ -678,7 +679,6 @@ It specifies the grid areas for the child elements,
 .project-description p {
   color:#08352b;
   font-size: 15px;
-  line-height: 1.2;
   text-align: justify;
   padding-bottom: 8px;
 }
