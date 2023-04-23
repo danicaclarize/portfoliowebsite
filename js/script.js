@@ -9,29 +9,6 @@ menuIcon.onclick = () =>{ // Add a click event listener to the menuIcon element
   navbar.classList.toggle('active'); // Toggle the class 'active' on the navbar element
 };
 
-// Scroll Section Active Link
-var sections = document.querySelectorAll('section'); // Find all the elements with the tag 'section'
-var navLinks = document.querySelectorAll('header nav a'); // Find all the 'a' elements inside 'nav' element under 'header' element
-
-// Step 3: Link the elements
-window.onscroll = () => { // Add a scroll event listener to the window
-  sections.forEach(sec => { // Loop through each section element
-    var top = window.scrollY; // Get the current vertical scroll position
-    var offset = sec.offsetTop - 150; // Get the top offset of the section element minus 150 pixels
-    var height = sec.offsetHeight; // Get the height of the section element
-    var id = sec.getAttribute('id'); // Get the value of the 'id' attribute of the section element
-
-    if(top >= offset && top < offset + height) { // Check if the current scroll position is within the section element
-
-      navLinks.forEach(links => { // Loop through each nav link element
-        links.classList.remove('active'); // Remove the class 'active' from all nav link elements
-        document.querySelector('header nav a[href*=' + id + ']').classList.add('active'); // Add the class 'active' to the nav link element that matches the 'id' of the current section element
-      });
-
-    };
-  });
-};
-
 
 
 
