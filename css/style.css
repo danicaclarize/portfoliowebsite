@@ -166,7 +166,6 @@ section {
   z-index:10; /* sets the stacking over the video*/
 }
 
-
 /*sets image vieport width for the element img under home-img class*/
 .home-img img {
   width:35vw;
@@ -664,7 +663,7 @@ It specifies the grid areas for the child elements,
   padding: 20px;
 }
 
-.project-description h4 {
+.project-description h2 {
   color:#111111
   font-size: 50px;
   text-transform: uppercase;
@@ -780,6 +779,7 @@ text-align: center;
   line-height: 1.2;
   text-align: justify;
   padding-bottom: 8px;
+  
   }
 
 
