@@ -317,6 +317,11 @@ the element with a class social-media adn sets the properties for the elemenst*/
 .skillSec {
   grid-area: skillSect;
 }
+
+#SkillSec {
+
+  
+}
 /*  Seelector defines the grid layout for the "About Me" container. 
 It specifies the grid areas for the child elements,
  with the image section in imageSect, the info section in infoSect, 
