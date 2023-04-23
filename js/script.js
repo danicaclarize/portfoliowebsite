@@ -6,7 +6,10 @@ var navbar = document.querySelector('.nav-menu'); // Find the element with the c
 // Step 2: Write the behavior
 menuIcon.onclick = () =>{ // Add a click event listener to the menuIcon element
   menuIcon.classList.toggle('bx-x'); // Toggle the class 'bx-x' on the menuIcon element
-  navbar.classList.toggle('active'); // Toggle the class 'active' on the navbar element
+  
+  //remove the toggle icon on navbar when click navbar link
+menuIcon.classList.remove('bx-x');
+navbar.classList.toggle('active';)
 };
 
 
@@ -80,8 +83,8 @@ downloadLink.addEventListener('click', (event) => {
   
   // Create a new anchor element to trigger the download
   const link = document.createElement('a');
-  link.href = danicaclarize/portfoliowebsite/CV-Danica_Yap.pdf;
-  link.download = CV-Danica_Yap;
+  link.href = danicaclarize/portfoliowebsite/CV-Danica_Yap.pdf; // Syntax error: missing quotes around URL
+  link.download = CV-Danica_Yap; // Syntax error: missing quotes around file name
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

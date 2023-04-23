@@ -683,6 +683,12 @@ It specifies the grid areas for the child elements,
 
 }
 
+@media (max-width: 617px){
+  .portfolio-container {
+    grid-template-columns: 1fr;
+  }
+
+}
 /*Descriptions and Technological and Tools*/
 #description {
   width: 100%;
