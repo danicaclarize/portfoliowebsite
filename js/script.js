@@ -9,7 +9,7 @@ menuIcon.onclick = () =>{ // Add a click event listener to the menuIcon element
   
   //remove the toggle icon on navbar when click navbar link
 menuIcon.classList.remove('bx-x');
-navbar.classList.toggle('active';)
+navbar.classList.toggle('active');
 };
 
 
