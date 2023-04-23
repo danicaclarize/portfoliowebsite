@@ -1,4 +1,4 @@
-// ---------------Toggle Icon for navigation bar---------------//
+// --------------- Toggle Icon for navigation bar---------------//
 // Step 1: Find the elements
 var menuIcon = document.querySelector('#menu-icon'); // Find the element with the id 'menu-icon'
 var navbar = document.querySelector('.nav-menu'); // Find the element with the class 'nav-menu'
