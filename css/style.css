@@ -665,8 +665,9 @@ It specifies the grid areas for the child elements,
   background-color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
   border-radius: 15px;
-  margin: auto;
+  margin: top 5px;;
   padding: 20px;
+
 }
 
 .project-description h2 {
